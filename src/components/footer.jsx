@@ -1,5 +1,5 @@
 import talk from "../assets/talk.svg";
-
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -10,7 +10,7 @@ function Footer() {
             <div className="footer-top">
               <h4 className="text-white">Building the next big thing?</h4>
               <h6 className="text-white my-4">Stackivy is interested in speaking with companies who want to build<br/>tech-enabled products and platforms.</h6>
-              <img src={talk} alt="let-talk" className="img-fluid float-end" />
+              <Link><img src={talk} alt="let-talk" className="img-fluid float-end" /></Link>
             </div>
           </div>
         </div>
