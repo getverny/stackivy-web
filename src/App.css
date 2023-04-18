@@ -100,7 +100,8 @@ a {
 .banner h1, 
 .discovery h1,
 .learn h1,
-.goals h1 {
+.goals h1, 
+.join-stack h1 {
   font-family: mag;
   font-size: 65px;
   font-weight: 400;
@@ -110,7 +111,7 @@ a {
 
 .all-in-one {
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(90deg,#0C6B8A 70%,#FFCC00 100%)!important;
+  background: linear-gradient(91.8deg, #0C6B8A 4.78%, #FFCC00 97.92%)!important;
   -webkit-background-clip: text!important;
 }
 
@@ -256,7 +257,8 @@ a {
 }
 
 .unlocked h6,
-.goals h6 {
+.goals h6,
+.join-stack h6 {
   color: #1E2C31;
   font-size: 12px;
   font-weight: 500;
@@ -273,6 +275,13 @@ a {
 }
 
 .goals {
+  padding: 120px 20px;
+  background-image: url("./assets/goal.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.join-stack {
   padding: 100px 20px;
-  background: linear-gradient(99.32deg, #086B87 6.35%, #10363B 57.7%);
 }
