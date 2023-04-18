@@ -6,6 +6,7 @@ import Hero from './components/hero';
 import JoinStack from './components/joinStack';
 import Learn from './components/learn';
 import Navbar from './components/navBar';
+import Partners from './components/partners';
 import Unlocked from './components/unlock';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Unlocked/>
       <Goal/>
       <JoinStack/>
+      <Partners/>
     </div>
   );
 }
