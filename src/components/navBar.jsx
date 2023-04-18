@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function Header () {
   return (
-    <Navbar bg="white" expand="lg" className='py-4 header sticky-top'>
+    <Navbar bg="white" expand="lg" className='py-3 header sticky-top'>
       <Container>
         <Navbar.Brand href="#"><img src={logo} alt="stackivy" className='img-fluid' /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

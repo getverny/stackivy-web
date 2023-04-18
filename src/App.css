@@ -39,14 +39,27 @@ a {
   background-color: #0C6B8A;
   border: #0C6B8A;
   font-size: 14px;
+  padding-left: 60px!important;
   font-weight: 500;
+  padding-right: 60px!important;
 }
 
 .btn-main:hover {
   background-color: #0A5770;
   border: #0A5770;
   font-size: 14px;
+  padding-left: 60px!important;
   font-weight: 500;
+  padding-right: 60px!important;
+}
+
+.btn-main:active {
+  background-color: #0A5770!important;
+  border: #0A5770;
+  font-size: 14px;
+  padding-left: 60px!important;
+  font-weight: 500;
+  padding-right: 60px!important;
 }
 
 .header .nav-link {
@@ -70,9 +83,9 @@ a {
 }
 
 .banner {
-  padding: 100px 20px;
+  padding: 150px 20px 0px 20px;
   background-image: url("./assets/bg-hero.svg");
-  background-position: 50%;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -84,7 +97,9 @@ a {
   line-height: 14px;
 }
 
-.banner h1 {
+.banner h1, 
+.discovery h1,
+.learn h1 {
   font-family: mag;
   font-size: 65px;
   font-weight: 400;
@@ -96,4 +111,97 @@ a {
   -webkit-text-fill-color: transparent;
   background: linear-gradient(90deg,#0C6B8A 70%,#FFCC00 100%)!important;
   -webkit-background-clip: text!important;
+}
+
+.getstarted {
+  padding: 100px 20px;
+  background-image: url("./assets/getstarted.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.getstarted h4, 
+.discovery h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 6px;
+  color: #1E2C31;
+  text-transform: uppercase;
+}
+
+.getstarted h2 {
+  font-family: mag;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #fff;
+}
+
+.getstarted h3 {
+  font-family: mag;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #fff;
+}
+
+.mt-9 {
+  margin-top: 90px;
+}
+
+@media (min-width: 992px){
+  .getstarted h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #FBBF24;
+    margin-left: 91px;
+    text-align: left;
+    padding-left: 12px;
+    font-size: 14px;
+    border: 0;
+    color: #fff;
+    border-radius: 3px
+  }
+}
+
+.discovery {
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+.pro {
+  background: linear-gradient(91.86deg, #0C6B8A 8.57%, #FFCC00 104.06%);
+  border-radius: 0px 50px 50px 50px;
+  padding: 11px 24px;
+  margin-left: -24px;
+  color: #fff;
+}
+
+.discovery h1::after {
+  content: url("./assets/line.svg");
+  position: relative;
+  top: -13px;
+  margin-left: 30px;
+}
+
+.learn {
+  padding: 100px 20px;
+  background-image: url("./assets/learnbg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wfy {
+  background: #13403178;
+  padding: 4px 20px;
+  margin-left: -21px;
+}
+
+.learn h6 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
 }
