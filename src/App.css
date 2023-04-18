@@ -99,7 +99,8 @@ a {
 
 .banner h1, 
 .discovery h1,
-.learn h1 {
+.learn h1,
+.goals h1 {
   font-family: mag;
   font-size: 65px;
   font-weight: 400;
@@ -254,7 +255,8 @@ a {
   text-transform: capitalize;
 }
 
-.unlocked h6 {
+.unlocked h6,
+.goals h6 {
   color: #1E2C31;
   font-size: 12px;
   font-weight: 500;
@@ -268,4 +270,9 @@ a {
   -webkit-text-fill-color: transparent;
   background: linear-gradient(90deg,#0C6B8A 70%,#FFCC00 100%)!important;
   -webkit-background-clip: text!important;
+}
+
+.goals {
+  padding: 100px 20px;
+  background: linear-gradient(99.32deg, #086B87 6.35%, #10363B 57.7%);
 }
