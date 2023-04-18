@@ -13,7 +13,7 @@ function GetStarted() {
         <div className="row justify-content-center mt-9 desktop">
           <div className="col-3 text-center">
            <h3>3B<span>+</span></h3>
-           <h5>Investment</h5>
+           <h5>Transactions</h5>
           </div>
           <div className="col-3 text-center">
            <h3>182M<span>+</span></h3>

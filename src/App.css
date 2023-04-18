@@ -219,7 +219,8 @@ a {
   min-height: 509px;
 }
 
-.slider-card h4 {
+.slider-card h4,
+.footer-top h4 {
   font-family: mag;
   color: #fff;
   font-size: 35px;
@@ -260,7 +261,8 @@ a {
 
 .unlocked h6,
 .goals h6,
-.join-stack h6 {
+.join-stack h6,
+.footer-top h6 {
   color: #1E2C31;
   font-size: 12px;
   font-weight: 500;
@@ -315,4 +317,20 @@ a {
 
 .partners {
   padding: 100px 20px;
+}
+
+.footer-top {
+  background-image: url("./assets/footertoop.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  margin: 0;
+  padding: 100px 50px;
+}
+
+.footer-bottom {
+  background: #F9F9F9;
+  margin-top: -170px;
+  padding: 270px 20px 60px;
 }
