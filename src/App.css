@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+html,body {
+  background-color: #fff;
+  overflow-x: hidden!important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  font-family: mona;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: mona;
+  src: url("./Mona-Sans-Medium.ttf");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: mag;
+  src: url("./Magiona-Display.ttf");
+}
+
+a {
+  text-decoration: none!important;
+}
+
+@media (max-width: 767.98px){
+  .desktop {
+    display: none!important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (min-width: 992px){
+  .mobile {
+    display: none!important;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.btn-main {
+  background-color: #0C6B8A;
+  border: #0C6B8A;
+  font-size: 14px;
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn-main:hover {
+  background-color: #0A5770;
+  border: #0A5770;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header .nav-link {
+  color: #1E2C31;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+@media (min-width: 992px){
+  .header .nav-link  {
+    margin-left: 40px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 992px){
+  .globe {
+    margin-top: 9px;
+    margin-left: 20px;
   }
+}
+
+.banner {
+  padding: 100px 20px;
+  background-image: url("./assets/bg-hero.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner h6 {
+  color: #6B7280;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.banner h1 {
+  font-family: mag;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 80px;
+  color: #1E2C31;
+}
+
+.all-in-one {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg,#0C6B8A 70%,#FFCC00 100%)!important;
+  -webkit-background-clip: text!important;
 }
