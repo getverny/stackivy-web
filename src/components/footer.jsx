@@ -2,6 +2,7 @@ import talk from "../assets/talk.svg";
 import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import linkedin from "../assets/linkedin.svg";
+import liner from "../assets/liner.svg";
 import twitter from "../assets/twitter.svg";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
@@ -45,29 +46,23 @@ function Footer() {
           <div className="row navigation">
             <div className="col-sm mb-3">
               <h5>Our Products</h5>
-              <div className="row">
-                <div className="col-sm-6 mb-3">
-                  <h4>Custom</h4>
-                  <ul className="list-unstyled links">
-                    <li><Link>Onescud</Link></li>
-                  </ul>
-                </div>
-                <div className="col-sm-6 mb-3">
-                <h4>Tailored</h4>
-                  <ul className="list-unstyled links">
-                    <li><Link>Ardilla</Link></li>
-                    <li><Link>Keed</Link></li>
-                    <li><Link>Vernde</Link></li>
-                    <li><Link>Onwa</Link></li>
-                    <li><Link>Pomelo</Link></li>
-                    <li><Link>Hargon</Link></li>
-                    <li><Link>Nearly</Link></li>
-                    <li><Link>Zettarh</Link></li>
-                    <li><Link>Curved</Link></li>
-                  </ul>
-                </div>
-              </div>
-              
+              <h4>Custom</h4>
+              <ul className="list-unstyled links">
+                <li><Link>Onescud</Link></li>
+              </ul>
+              <img src={liner} alt="liner" className="img-fluid mb-3" />
+              <h4>Tailored</h4>
+              <ul className="list-unstyled links">
+                <li><Link>Ardilla</Link></li>
+                <li><Link>Keed</Link></li>
+                <li><Link>Vernde</Link></li>
+                <li><Link>Onwa</Link></li>
+                <li><Link>Pomelo</Link></li>
+                <li><Link>Hargon</Link></li>
+                <li><Link>Nearly</Link></li>
+                <li><Link>Zettarh</Link></li>
+                <li><Link>Curved</Link></li>
+              </ul>
             </div>
             <div className="col-sm mb-3">
               <h5>Resources</h5>
