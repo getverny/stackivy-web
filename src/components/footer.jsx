@@ -118,10 +118,10 @@ function Footer() {
             </div>
             <div className="col-sm-2">
               <div className="d-flex flex-row">
-                <a href="#!"><img src={facebook} alt="facebook" className="img-fluid me-3" /></a>
-                <a href="#!"><img src={instagram} alt="instagram" className="img-fluid me-3" /></a>
-                <a href="#!"><img src={linkedin} alt="linkedin" className="img-fluid me-3" /></a>
-                <a href="#!"><img src={twitter} alt="twitter" className="img-fluid me-3" /></a>
+                <a href="https://www.facebook.com/getstackivy/" target="_blank" rel="noreferrer"><img src={facebook} alt="facebook" className="img-fluid me-3" /></a>
+                <a href="https://instagram.com/stackivy.africa?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram" className="img-fluid me-3" /></a>
+                <a href="https://www.linkedin.com/company/stackivy/" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin" className="img-fluid me-3" /></a>
+                <a href="https://twitter.com/getstackivy?s=11&t=DDZ4XEo9V0QwB535j-9ysA" target="_blank" rel="noreferrer"><img src={twitter} alt="twitter" className="img-fluid me-3" /></a>
               </div>
             </div>
           </div>

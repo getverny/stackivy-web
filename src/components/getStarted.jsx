@@ -1,3 +1,4 @@
+import CountUp from 'react-countup';
 
 function GetStarted() {
   return (
@@ -12,11 +13,11 @@ function GetStarted() {
 
         <div className="row justify-content-center mt-9 desktop">
           <div className="col-3 text-center">
-           <h3>3B<span>+</span></h3>
+           <h3><CountUp end={3} delay={3} duration="2"  /><span>B+</span></h3>
            <h5>Transactions</h5>
           </div>
           <div className="col-3 text-center">
-           <h3>182M<span>+</span></h3>
+           <h3><CountUp end={183} delay={3} duration="2"  /><span>M+</span></h3>
            <h5 style={{background: "#8807F7"}}>ROI</h5>
           </div>
           <div className="col-3 text-center">
