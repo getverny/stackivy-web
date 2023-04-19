@@ -4,8 +4,16 @@ import instagram from "../assets/instagram.svg";
 import linkedin from "../assets/linkedin.svg";
 import twitter from "../assets/twitter.svg";
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
 
 function Footer() {
+  const [value, setValue] = useState("");
+
+  const onInput = (e) => setValue(e.target.value);
+
+  const onClear = () => {
+    setValue("");
+  };
   return (
     <section className="">
       <div className="container">
@@ -26,9 +34,9 @@ function Footer() {
               <div className="subscribe">
                 <h3>Subscribe to get the latest updates and news </h3>
                 <div className="input-group">
-                  <input type="email" className="form-control" placeholder="Enter your email"/>
+                  <input type="email" className="form-control" placeholder="Enter your email" value={value} onInput={onInput}/>
                   <span className="input-group-btn">
-                    <button className="btn" type="submit">Subscribe</button>
+                    <button className="btn" type="button"  onClick={onClear}>Subscribe</button>
                   </span>
                 </div>
               </div>
