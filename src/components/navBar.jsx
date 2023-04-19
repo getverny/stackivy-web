@@ -9,6 +9,10 @@ import usa from "../assets/usa.svg";
 import uk from "../assets/uk.svg";
 import zim from "../assets/zim.svg";
 import globe from "../assets/globe.svg";
+import ardilla from "../assets/ardilla.svg";
+import vernde from "../assets/vernde.svg";
+import zetta from "../assets/zetta.svg";
+import hargon from "../assets/hargon.svg";
 import about from "../assets/about.svg";
 import privacy from "../assets/privacy.svg";
 import terms from "../assets/terms.svg";
@@ -31,93 +35,45 @@ function Header () {
               <div className="dropdown-menu product-menu">
                 <div className='row'>
                   <div className='col-sm-4 mb-3'>
-                    <Link className='d-flex flex-row'>
-                      <img src={about} alt="about-us" className='img-fluid' />
-                      <div className='title-header mt-3'>
-                        <h4>Ardilla</h4>
-                        <p>Building wealth</p>
-                      </div>
+                    <Link className=''>
+                      <img src={ardilla} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
                     </Link>
-                    <Link className='d-flex flex-row'>
-                      <img src={about} alt="about-us" className='img-fluid' />
-                      <div className='title-header mt-3'>
-                        <h4>Hargon</h4>
-                        <p>Credit anytime</p>
-                      </div>
+                    <Link className=''>
+                      <img src={hargon} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
                     </Link>
-                    <Link className='d-flex flex-row'>
-                      <img src={about} alt="about-us" className='img-fluid' />
-                      <div className='title-header mt-3'>
-                        <h4>Vernde</h4>
-                        <p>Cross- Borderless payment</p>
-                      </div>
+                    <Link className=''>
+                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
                     </Link>
-                    <Link className='d-flex flex-row'>
-                      <img src={about} alt="about-us" className='img-fluid' />
-                      <div className='title-header mt-3'>
-                        <h4>Zettarh</h4>
-                        <p>Cryptocurrency Exchange</p>
-                      </div>
+                    <Link className=''>
+                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
                     </Link>
                   </div>
                   <div className='col-sm-4 mb-3'>
-                    <Link className='d-flex flex-row'>
-                      <img src={about} alt="about-us" className='img-fluid' />
-                      <div className='title-header mt-3'>
-                        <h4>About Us</h4>
-                        <p>Know Us More</p>
-                      </div>
+                    <Link className=''>
+                      <img src={ardilla} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
                     </Link>
-                    <Link className='d-flex flex-row'>
-                      <img src={about} alt="about-us" className='img-fluid' />
-                      <div className='title-header mt-3'>
-                        <h4>About Us</h4>
-                        <p>Know Us More</p>
-                      </div>
+                    <Link className=''>
+                      <img src={hargon} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
                     </Link>
-                    <Link className='d-flex flex-row'>
-                      <img src={about} alt="about-us" className='img-fluid' />
-                      <div className='title-header mt-3'>
-                        <h4>About Us</h4>
-                        <p>Know Us More</p>
-                      </div>
+                    <Link className=''>
+                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
                     </Link>
-                    <Link className='d-flex flex-row'>
-                      <img src={about} alt="about-us" className='img-fluid' />
-                      <div className='title-header mt-3'>
-                        <h4>About Us</h4>
-                        <p>Know Us More</p>
-                      </div>
+                    <Link className=''>
+                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
                     </Link>
                   </div>
                   <div className='col-sm-4 mb-3'>
-                    <Link className='d-flex flex-row'>
-                      <img src={about} alt="about-us" className='img-fluid' />
-                      <div className='title-header mt-3'>
-                        <h4>About Us</h4>
-                        <p>Know Us More</p>
-                      </div>
+                    <Link className=''>
+                      <img src={ardilla} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
                     </Link>
-                    <Link className='d-flex flex-row'>
-                      <img src={about} alt="about-us" className='img-fluid' />
-                      <div className='title-header mt-3'>
-                        <h4>About Us</h4>
-                        <p>Know Us More</p>
-                      </div>
+                    <Link className=''>
+                      <img src={hargon} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
                     </Link>
-                    <Link className='d-flex flex-row'>
-                      <img src={about} alt="about-us" className='img-fluid' />
-                      <div className='title-header mt-3'>
-                        <h4>About Us</h4>
-                        <p>Know Us More</p>
-                      </div>
+                    <Link className=''>
+                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
                     </Link>
-                    <Link className='d-flex flex-row'>
-                      <img src={about} alt="about-us" className='img-fluid' />
-                      <div className='title-header mt-3'>
-                        <h4>About Us</h4>
-                        <p>Know Us More</p>
-                      </div>
+                    <Link className=''>
+                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
                     </Link>
                   </div>
                 </div>
