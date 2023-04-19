@@ -36,44 +36,44 @@ function Header () {
                 <div className='row'>
                   <div className='col-sm-4 mb-3'>
                     <Link className=''>
-                      <img src={ardilla} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
+                      <img src={ardilla} alt="about-us" className='img-fluid me-3 mb-5 w-75' />
                     </Link>
                     <Link className=''>
-                      <img src={hargon} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
+                      <img src={hargon} alt="about-us" className='img-fluid me-3 mb-5 w-75' />
                     </Link>
                     <Link className=''>
-                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
+                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-75' />
                     </Link>
                     <Link className=''>
-                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
-                    </Link>
-                  </div>
-                  <div className='col-sm-4 mb-3'>
-                    <Link className=''>
-                      <img src={ardilla} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
-                    </Link>
-                    <Link className=''>
-                      <img src={hargon} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
-                    </Link>
-                    <Link className=''>
-                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
-                    </Link>
-                    <Link className=''>
-                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
+                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-75' />
                     </Link>
                   </div>
                   <div className='col-sm-4 mb-3'>
                     <Link className=''>
-                      <img src={ardilla} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
+                      <img src={ardilla} alt="about-us" className='img-fluid me-3 mb-5 w-75' />
                     </Link>
                     <Link className=''>
-                      <img src={hargon} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
+                      <img src={hargon} alt="about-us" className='img-fluid me-3 mb-5 w-75' />
                     </Link>
                     <Link className=''>
-                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
+                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-75' />
                     </Link>
                     <Link className=''>
-                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-100' />
+                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-75' />
+                    </Link>
+                  </div>
+                  <div className='col-sm-4 mb-3'>
+                    <Link className=''>
+                      <img src={ardilla} alt="about-us" className='img-fluid me-3 mb-5 w-75' />
+                    </Link>
+                    <Link className=''>
+                      <img src={hargon} alt="about-us" className='img-fluid me-3 mb-5 w-75' />
+                    </Link>
+                    <Link className=''>
+                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-75' />
+                    </Link>
+                    <Link className=''>
+                      <img src={vernde} alt="about-us" className='img-fluid me-3 mb-5 w-75' />
                     </Link>
                   </div>
                 </div>
