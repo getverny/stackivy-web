@@ -9,7 +9,11 @@ import usa from "../assets/usa.svg";
 import uk from "../assets/uk.svg";
 import zim from "../assets/zim.svg";
 import globe from "../assets/globe.svg";
+import about from "../assets/about.svg";
+import privacy from "../assets/privacy.svg";
+import terms from "../assets/terms.svg";
 import { Link } from 'react-router-dom';
+import { Icon } from '@iconify/react';
 
 
 function Header () {
@@ -20,11 +24,240 @@ function Header () {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="">Products</Nav.Link>
-            <Nav.Link href="">Solution</Nav.Link>
-            <Nav.Link href="">Resources</Nav.Link>
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </Link>
+              <div className="dropdown-menu product-menu">
+                <div className='row'>
+                  <div className='col-sm-4 mb-3'>
+                    <Link className='d-flex flex-row'>
+                      <img src={about} alt="about-us" className='img-fluid' />
+                      <div className='title-header mt-3'>
+                        <h4>Ardilla</h4>
+                        <p>Building wealth</p>
+                      </div>
+                    </Link>
+                    <Link className='d-flex flex-row'>
+                      <img src={about} alt="about-us" className='img-fluid' />
+                      <div className='title-header mt-3'>
+                        <h4>Hargon</h4>
+                        <p>Credit anytime</p>
+                      </div>
+                    </Link>
+                    <Link className='d-flex flex-row'>
+                      <img src={about} alt="about-us" className='img-fluid' />
+                      <div className='title-header mt-3'>
+                        <h4>Vernde</h4>
+                        <p>Cross- Borderless payment</p>
+                      </div>
+                    </Link>
+                    <Link className='d-flex flex-row'>
+                      <img src={about} alt="about-us" className='img-fluid' />
+                      <div className='title-header mt-3'>
+                        <h4>Zettarh</h4>
+                        <p>Cryptocurrency Exchange</p>
+                      </div>
+                    </Link>
+                  </div>
+                  <div className='col-sm-4 mb-3'>
+                    <Link className='d-flex flex-row'>
+                      <img src={about} alt="about-us" className='img-fluid' />
+                      <div className='title-header mt-3'>
+                        <h4>About Us</h4>
+                        <p>Know Us More</p>
+                      </div>
+                    </Link>
+                    <Link className='d-flex flex-row'>
+                      <img src={about} alt="about-us" className='img-fluid' />
+                      <div className='title-header mt-3'>
+                        <h4>About Us</h4>
+                        <p>Know Us More</p>
+                      </div>
+                    </Link>
+                    <Link className='d-flex flex-row'>
+                      <img src={about} alt="about-us" className='img-fluid' />
+                      <div className='title-header mt-3'>
+                        <h4>About Us</h4>
+                        <p>Know Us More</p>
+                      </div>
+                    </Link>
+                    <Link className='d-flex flex-row'>
+                      <img src={about} alt="about-us" className='img-fluid' />
+                      <div className='title-header mt-3'>
+                        <h4>About Us</h4>
+                        <p>Know Us More</p>
+                      </div>
+                    </Link>
+                  </div>
+                  <div className='col-sm-4 mb-3'>
+                    <Link className='d-flex flex-row'>
+                      <img src={about} alt="about-us" className='img-fluid' />
+                      <div className='title-header mt-3'>
+                        <h4>About Us</h4>
+                        <p>Know Us More</p>
+                      </div>
+                    </Link>
+                    <Link className='d-flex flex-row'>
+                      <img src={about} alt="about-us" className='img-fluid' />
+                      <div className='title-header mt-3'>
+                        <h4>About Us</h4>
+                        <p>Know Us More</p>
+                      </div>
+                    </Link>
+                    <Link className='d-flex flex-row'>
+                      <img src={about} alt="about-us" className='img-fluid' />
+                      <div className='title-header mt-3'>
+                        <h4>About Us</h4>
+                        <p>Know Us More</p>
+                      </div>
+                    </Link>
+                    <Link className='d-flex flex-row'>
+                      <img src={about} alt="about-us" className='img-fluid' />
+                      <div className='title-header mt-3'>
+                        <h4>About Us</h4>
+                        <p>Know Us More</p>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+                <div className='row mt-5 px-5'>
+                  <div className='col-sm-6'>
+                    <div className='d-flex flex-row'>
+                      <p className='me-5'><Icon icon="ic:twotone-slow-motion-video" className='me-2' />Watch Demo</p>
+                      <p className='me-5'><Icon icon="ion:pricetags" className='me-2' />Pricing</p>
+                      <p><Icon icon="mingcute:chat-1-fill" className='me-2' />Contact Sales</p>
+                    </div>
+                  </div>
+                  <div className='col-sm-6 text-end'>
+                    <p>Ready to get started? Select your pick</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Solutions
+              </Link>
+              <div className="dropdown-menu solution-menu">
+                <div className='row'>
+                  <div className='col-sm-3 mb-2'>
+                    <h4>Personal</h4>
+                    <ul className="list-unstyled links">
+                      <li><Link>Budgeting tools</Link></li>
+                      <li><Link>Financial education</Link></li>
+                      <li><Link>Wealth management</Link></li>
+                      <li><Link>Retirement planning</Link></li>
+                      <li><Link>Cross-border payment solutions </Link></li>
+                      <li><Link>Payment gateway solutions </Link></li>
+                      <li><Link>Cryptocurrency  </Link></li>
+                      <li><Link>Foreign exchange trading  </Link></li>
+                      <li><Link>Microfinance solutions  </Link></li>
+                      <li><Link>Mobile money  </Link></li>
+                    </ul>
+                  </div>
+                  <div className='col-sm-3 mb-2'>
+                    <h4>Business</h4>
+                    <ul className="list-unstyled links">
+                      <li><Link>Financial management software</Link></li>
+                      <li><Link>Payment gateway </Link></li>
+                      <li><Link>Cross-border payment </Link></li>
+                      <li><Link>Lending</Link></li>
+                      <li><Link>Cryptocurrency  </Link></li>
+                      <li><Link>Foreign exchange trading </Link></li>
+                      <li><Link>Microfinance  </Link></li>
+                      <li><Link>Open banking   </Link></li>
+                      <li><Link>Wealth management  </Link></li>
+                      <li><Link>Custom made solutions  </Link></li>
+                      <li><Link>Bookkeeping & expense tracking services  </Link></li>
+                    </ul>
+                  </div>
+                  <div className='col-sm-3 mb-2'>
+                    <h4>Government</h4>
+                    <ul className="list-unstyled links">
+                      <li><Link>Cross-border payment</Link></li>
+                      <li><Link>Custom made solutions </Link></li>
+                      <li><Link>Lending solutions </Link></li>
+                      <li><Link>Remittance</Link></li>
+                    </ul>
+                  </div>
+                  <div className='col-sm-3 mb-2'>
+                    <h4>Industries</h4>
+                    <ul className="list-unstyled links">
+                      <li><Link>E-commerce</Link></li>
+                      <li><Link>Healthcare </Link></li>
+                      <li><Link>Food </Link></li>
+                      <li><Link>Education</Link></li>
+                      <li><Link>Human Resources</Link></li>
+                      <li><Link>Logistics & Trasnsportation</Link></li>
+                    </ul>
+                  </div>
+                </div>
+                <div className='row mt-5 px-5'>
+                  <div className='col-sm-6'>
+                    <div className='d-flex flex-row'>
+                      <p className='me-5'><Icon icon="ion:pricetags" className='me-2' />Pricing</p>
+                      <p><Icon icon="mingcute:chat-1-fill" className='me-2' />Contact Sales</p>
+                    </div>
+                  </div>
+                  <div className='col-sm-6 text-end'>
+                    <p>Ready to get started? Select your pick</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Resources
+              </Link>
+              <div className="dropdown-menu company-menu">
+                <div className='row'>
+                  <div className='col-sm'>
+                    <h4>Resources</h4>
+                    <ul className="list-unstyled links">
+                      <li><Link>Product integration</Link></li>
+                      <li><Link>Stackivy for startup</Link></li>
+                      <li><Link>Support</Link></li>
+                      <li><Link>Blog</Link></li>
+                      <li><Link>Guides</Link></li>
+                      <li><Link>Webinars </Link></li>
+                      <li><Link>Case studies</Link></li>
+                      <li><Link>Events </Link></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
             <Nav.Link href="">Pricing</Nav.Link>
-            <Nav.Link href="">Company</Nav.Link>
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company
+              </Link>
+              <div className="dropdown-menu company-menu company">
+                <Link className='d-flex flex-row mb-2'>
+                  <img src={about} alt="about-us" className='img-fluid' />
+                  <div className='title-header mt-3'>
+                    <h4>About Us</h4>
+                    <p>Know Us More</p>
+                  </div>
+                </Link>
+                <Link className='d-flex flex-row mb-2'>
+                  <img src={privacy} alt="about-us" className='img-fluid' />
+                  <div className='title-header mt-3'>
+                    <h4>Privacy Policy</h4>
+                    <p>Security</p>
+                  </div>
+                </Link>
+                <Link className='d-flex flex-row'>
+                  <img src={terms} alt="about-us" className='img-fluid' />
+                  <div className='title-header mt-3'>
+                    <h4>Terms & Conditions</h4>
+                    <p>User Policies</p>
+                  </div>
+                </Link>
+              </div>
+            </li>
           </Nav>
           <div className="ms-auto">
             <ul className="navbar-nav">
