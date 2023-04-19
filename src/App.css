@@ -69,8 +69,8 @@ a {
   line-height: 23px;
 }
 
-.header .nav-link {
-  color: #1E2C31;
+.header .nav-link:hover {
+  color: #116B89;
   font-size: 14px;
   font-weight: 500;
   line-height: 23px;
