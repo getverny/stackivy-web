@@ -463,6 +463,10 @@ a {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.11);
     border-radius: 20px;
     padding: 30px 30px;
+    background-image: url("./assets/bg-pro.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -542,4 +546,14 @@ a {
   line-height: 36px;
   background: #F9F9F9;
   border-radius: 10px;
+}
+
+.product-menu img:hover {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.product-menu img {
+  padding: 15px;
 }
