@@ -12,9 +12,16 @@ import globe from "../assets/globe.svg";
 import ardilla from "../assets/ardilla.svg";
 import vernde from "../assets/vernde.svg";
 import zetta from "../assets/zetta.svg";
+import onescud from "../assets/onescud.svg";
+import keed from "../assets/keed.svg";
+import pomelo from "../assets/pomelo.svg";
+import onwa from "../assets/onwa.svg";
 import hargon from "../assets/hargon.svg";
 import about from "../assets/about.svg";
 import privacy from "../assets/privacy.svg";
+import moon from "../assets/moon.svg";
+import nearly from "../assets/nearly.svg";
+import curved from "../assets/curved.svg";
 import terms from "../assets/terms.svg";
 import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
@@ -45,35 +52,32 @@ function Header () {
                       <img src={vernde} alt="about-us" className='img-fluid w-75' />
                     </Link>
                     <Link className=''>
-                      <img src={vernde} alt="about-us" className='img-fluid w-75' />
+                      <img src={zetta} alt="about-us" className='img-fluid w-75' />
                     </Link>
                   </div>
                   <div className='col-sm-4 mb-3'>
                     <Link className=''>
-                      <img src={ardilla} alt="about-us" className='img-fluid w-75' />
+                      <img src={pomelo} alt="about-us" className='img-fluid w-75' />
                     </Link>
                     <Link className=''>
-                      <img src={hargon} alt="about-us" className='img-fluid w-75' />
+                      <img src={onwa} alt="about-us" className='img-fluid w-75' />
                     </Link>
                     <Link className=''>
-                      <img src={vernde} alt="about-us" className='img-fluid w-75' />
+                      <img src={keed} alt="about-us" className='img-fluid w-75' />
                     </Link>
                     <Link className=''>
-                      <img src={vernde} alt="about-us" className='img-fluid w-75' />
+                      <img src={onescud} alt="about-us" className='img-fluid w-75' />
                     </Link>
                   </div>
                   <div className='col-sm-4 mb-3'>
                     <Link className=''>
-                      <img src={ardilla} alt="about-us" className='img-fluid w-75' />
+                      <img src={moon} alt="about-us" className='img-fluid w-75' />
                     </Link>
                     <Link className=''>
-                      <img src={hargon} alt="about-us" className='img-fluid w-75' />
+                      <img src={curved} alt="about-us" className='img-fluid w-75' />
                     </Link>
                     <Link className=''>
-                      <img src={vernde} alt="about-us" className='img-fluid w-75' />
-                    </Link>
-                    <Link className=''>
-                      <img src={vernde} alt="about-us" className='img-fluid w-75' />
+                      <img src={nearly} alt="about-us" className='img-fluid w-75' />
                     </Link>
                   </div>
                 </div>
