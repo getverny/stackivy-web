@@ -11,6 +11,7 @@ import zim from "../assets/zim.svg";
 import globe from "../assets/globe.svg";
 import { Link } from 'react-router-dom';
 
+
 function Header () {
   return (
     <Navbar bg="white" expand="lg" className='py-3 header sticky-top'>
@@ -66,6 +67,7 @@ function Header () {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    
   )
 }
 
