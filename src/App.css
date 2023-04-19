@@ -69,6 +69,13 @@ a {
   line-height: 23px;
 }
 
+.header .nav-link:hover {
+  color: #116B89;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
 @media (min-width: 992px){
   .header .nav-link  {
     margin-left: 40px;
@@ -331,6 +338,86 @@ a {
 
 .footer-bottom {
   background: #F9F9F9;
-  margin-top: -170px;
-  padding: 270px 20px 60px;
+  margin-top: -100px;
+  padding: 150px 20px 60px;
+}
+
+.footer-bottom h3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #000;
+}
+
+.subscribe .btn {
+  min-height: 50px;
+  border-radius: 0;
+  background: #116B89;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  border-radius: 0px 100px 100px 0px;
+  padding: 15px 30px;
+}
+
+.subscribe .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  color: #C4C4C4;
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  border: 1px solid #D9D9D9;
+  border-radius: 100px;
+  padding: 21px 28px;
+}
+
+.subscribe .form-control:focus {
+  box-shadow: none;
+  border: 1px solid #116B89;
+}
+
+.navigation{
+  margin-top: 70px;
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 60px;
+}
+
+.navigation h5 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.navigation h4 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.navigation a {
+  color: #6F6F6F;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.copyright {
+  padding: 25px 0;
+}
+
+.copyright h6 {
+  color: #6F6F6F;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.list-unstyled {
+  padding-left: 0;
 }
