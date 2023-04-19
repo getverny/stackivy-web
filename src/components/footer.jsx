@@ -95,8 +95,8 @@ function Footer() {
               <ul className="list-unstyled links">
                 <li><Link>Terms & conditions</Link></li>
                 <li><Link>Information security policy</Link></li>
-                <li><Link>Privacy</Link></li>
-                <li><Link>Policy</Link></li>
+                <li><Link>Privacy Policy</Link></li>
+                <li><Link>Pricing</Link></li>
               </ul>
             </div>
             <div className="col-sm mb-3">
