@@ -35,6 +35,10 @@ a {
   }
 }
 
+.no-caret .dropdown-toggle::after {
+  display: none;
+}
+
 .btn-main {
   background-color: #0C6B8A;
   border: #0C6B8A;
@@ -437,4 +441,15 @@ a {
 
 .list-unstyled {
   padding-left: 0;
+}
+
+@media (min-width: 992px){
+  .globe-menu {
+    min-width: 350px!important;
+    border: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    padding: 30px 30px;
+  }
 }

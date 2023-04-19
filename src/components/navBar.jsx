@@ -2,6 +2,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../assets/logo.svg";
+import coming from "../assets/cs.svg";
+import global from "../assets/global.svg";
+import nig from "../assets/9ja.svg";
+import usa from "../assets/usa.svg";
+import uk from "../assets/uk.svg";
+import zim from "../assets/zim.svg";
 import globe from "../assets/globe.svg";
 import { Link } from 'react-router-dom';
 
@@ -29,8 +35,31 @@ function Header () {
                   Sign In
                 </Link>
               </li>
-              <li className="nav-item desktop">
-                <img src={globe} alt="globe" className='img-fluid globe'/>
+              <li className="nav-item desktop no-caret">
+                <div className='dropdown'>
+                  <Link className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src={globe} alt="globe" className='img-fluid globe'/></Link>
+                  <div className="dropdown-menu globe-menu">
+                    <div>
+                      <img src={global} alt="global" className='img-fluid' />
+                      <img src={coming} alt="global" className='img-fluid float-end mt-2' />
+                    </div>
+                    <div className='mt-3'>
+                      <img src={nig} alt="global" className='img-fluid' />
+                    </div>
+                    <div className='mt-3'>
+                      <img src={usa} alt="global" className='img-fluid' />
+                      <img src={coming} alt="global" className='img-fluid float-end mt-2' />
+                    </div>
+                    <div className='mt-3'>
+                      <img src={uk} alt="global" className='img-fluid' />
+                      <img src={coming} alt="global" className='img-fluid float-end mt-2' />
+                    </div>
+                    <div className='mt-3'>
+                      <img src={zim} alt="global" className='img-fluid' />
+                      <img src={coming} alt="global" className='img-fluid float-end mt-2' />
+                    </div>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
