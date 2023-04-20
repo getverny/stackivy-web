@@ -610,11 +610,8 @@ a {
 }
 
 .hargon-hero {
-  padding: 240px 0px 670px 0px;
-  background-image: url("./assets/herohargon.svg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 200px 0px;
+  background-color: #228922;
 }
 
 .hargon-hero h1 {
@@ -637,4 +634,30 @@ a {
   line-height: 16px;
   font-weight: 400;
   color: #fff;
+}
+
+.flex-lending {
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+.flex-lending h1 {
+  font-size: 65px;
+  line-height: 100px;
+  font-weight: 400;
+  color: #000;
+  font-family: mag;
+}
+
+.flex-lending p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000;
+}
+
+.lend {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #0C6B8A 4.78%, #FFCC00 97.92%)!important;
+  -webkit-background-clip: text!important;
 }
