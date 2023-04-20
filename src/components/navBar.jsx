@@ -48,14 +48,14 @@ function Header () {
                     <Link className=''>
                       <img src={hargon} alt="about-us" className='img-fluid w-75' />
                     </Link>
-                    <Link className=''>
+                    <Link className='coming-soon'>
                       <img src={vernde} alt="about-us" className='img-fluid w-75' />
                     </Link>
-                    <Link className=''>
+                    <Link className='coming-soon'>
                       <img src={zetta} alt="about-us" className='img-fluid w-75' />
                     </Link>
                   </div>
-                  <div className='col-sm-4 mb-3'>
+                  <div className='col-sm-4 mb-3 coming-soon'>
                     <Link className=''>
                       <img src={pomelo} alt="about-us" className='img-fluid w-75' />
                     </Link>
@@ -69,7 +69,7 @@ function Header () {
                       <img src={onescud} alt="about-us" className='img-fluid w-75' />
                     </Link>
                   </div>
-                  <div className='col-sm-4 mb-3'>
+                  <div className='col-sm-4 mb-3 coming-soon'>
                     <Link className=''>
                       <img src={moon} alt="about-us" className='img-fluid w-75' />
                     </Link>

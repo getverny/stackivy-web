@@ -554,6 +554,16 @@ a {
   padding: 15px;
 }
 
+.coming-soon img:hover {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 15px;
+  background-image: url("./assets/comingsoon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .product-menu img {
   padding: 15px;
 }
