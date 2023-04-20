@@ -1,5 +1,4 @@
 import liner from "../assets/hargonline.svg"
-import userdashboard from "../assets/userdash.svg"
 
 
 function HargonHero() {
