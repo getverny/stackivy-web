@@ -608,3 +608,33 @@ a {
 .product-menu img {
   padding: 15px;
 }
+
+.hargon-hero {
+  padding: 240px 0px 670px 0px;
+  background-image: url("./assets/herohargon.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hargon-hero h1 {
+  font-family: mag;
+  font-size: 70px;
+  line-height: 75px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.hargon-hero h6 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.hargon-hero span {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #fff;
+}
