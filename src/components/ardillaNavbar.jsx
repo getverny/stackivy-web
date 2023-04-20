@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from "../assets/logo.svg";
+import logo from "../assets/white-logo.svg";
 import coming from "../assets/cs.svg";
 import global from "../assets/global.svg";
 import nig from "../assets/9ja.svg";
@@ -27,9 +27,9 @@ import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 
 
-function Header () {
+function ArdillaHeader () {
   return (
-    <Navbar bg="white" expand="lg" className='py-3 header sticky-top'>
+    <Navbar expand="lg" className='py-3 ardilla-header sticky-top'>
       <Container>
         <Navbar.Brand href="/"><img src={logo} alt="stackivy" className='img-fluid' /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -223,7 +223,7 @@ function Header () {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link
-                  className="btn btn-primary btn-main rounded-pill px-5 py-3"
+                  className="btn btn-primary btn-fff rounded-pill px-5 py-3"
                   to=""
                 >
                   Sign In
@@ -265,4 +265,4 @@ function Header () {
 }
 
 
-export default Header
+export default ArdillaHeader

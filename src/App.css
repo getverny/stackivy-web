@@ -48,15 +48,28 @@ a {
   padding-right: 60px!important;
 }
 
-.btn-main:hover {
-  background-color: #0A5770;
-  border: #0A5770;
+.btn-fff {
+  background-color: #fff;
+  border: #fff;
+  color: #1E2C31;
   font-size: 14px;
   padding-left: 60px!important;
   font-weight: 500;
   padding-right: 60px!important;
 }
 
+.btn-fff:hover,
+.btn-fff:active {
+  background-color: #f9f9f9!important;
+  border: #f9f9f9;
+  color: #1E2C31;
+  font-size: 14px;
+  padding-left: 60px!important;
+  font-weight: 500;
+  padding-right: 60px!important;
+}
+
+.btn-main:hover,
 .btn-main:active {
   background-color: #0A5770!important;
   border: #0A5770;
@@ -64,6 +77,32 @@ a {
   padding-left: 60px!important;
   font-weight: 500;
   padding-right: 60px!important;
+}
+
+
+
+.ardilla-header {
+  background-color: #2D0053;
+}
+
+.hargon-header {
+  background-color: #228922;
+}
+
+.ardilla-header .nav-link,
+.hargon-header .nav-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.ardilla-header .nav-link:hover,
+.hargon-header .nav-link:hover {
+  color: #f9f9f9;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
 }
 
 .header .nav-link {
@@ -81,7 +120,9 @@ a {
 }
 
 @media (min-width: 992px){
-  .header .nav-link  {
+  .header .nav-link,
+  .ardilla-header .nav-link,
+  .hargon-header .nav-link  {
     margin-left: 40px;
   }
 }

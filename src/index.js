@@ -6,6 +6,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ThemeProvider from 'react-bootstrap/ThemeProvider'
+import Ardilla from './pages/ardilla';
+import Hargon from './pages/hargon';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +18,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}></Route>
+        <Route path="/ardilla" element={<Ardilla/>}></Route>
+        <Route path="/hargon" element={<Hargon/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>
