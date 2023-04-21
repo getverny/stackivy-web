@@ -1,3 +1,4 @@
+import Fast from "../components/fastEasy";
 import FlexLending from "../components/flexlending";
 import Footer from "../components/footer";
 import HargonHero from "../components/hargonHero";
@@ -9,6 +10,7 @@ function Hargon() {
       <HargonHeader/>
       <HargonHero/>
       <FlexLending/>
+      <Fast/>
       <Footer/>
     </div>
   );

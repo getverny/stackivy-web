@@ -58,6 +58,16 @@ a {
   padding-right: 60px!important;
 }
 
+.btn-grad {
+  background: linear-gradient(91.8deg, #0C6B8A 4.78%, #FFCC00 97.92%);
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  padding-left: 60px!important;
+  font-weight: 500;
+  padding-right: 60px!important;
+}
+
 .btn-fff:hover,
 .btn-fff:active {
   background-color: #f9f9f9!important;
@@ -205,6 +215,10 @@ a {
 
 .mt-9 {
   margin-top: 90px;
+}
+
+.mt-6 {
+  margin-top: 75px;
 }
 
 @media (min-width: 992px){
@@ -649,7 +663,8 @@ a {
   font-family: mag;
 }
 
-.flex-lending p {
+.flex-lending p,
+.fast p{
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
@@ -660,4 +675,9 @@ a {
   -webkit-text-fill-color: transparent;
   background: linear-gradient(91.8deg, #0C6B8A 4.78%, #FFCC00 97.92%)!important;
   -webkit-background-clip: text!important;
+}
+
+.fast {
+  background-color: #FFFEFA;
+  padding: 150px 20px;
 }
