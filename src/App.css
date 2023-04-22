@@ -53,9 +53,30 @@ a {
   border: #fff;
   color: #1E2C31;
   font-size: 14px;
-  padding-left: 60px!important;
+  padding-left: 80px!important;
   font-weight: 500;
-  padding-right: 60px!important;
+  padding-right: 80px!important;
+}
+
+.btn-green,
+.btn-green:hover {
+  background-color: #228B22;
+  border: #228B22;
+  color: #fff;
+  font-size: 14px;
+  padding-left: 90px!important;
+  font-weight: 500;
+  padding-right: 90px!important;
+}
+
+.btn-000 {
+  background-color: #000;
+  border: #fff;
+  color: #fff;
+  font-size: 14px;
+  padding-left: 90px!important;
+  font-weight: 500;
+  padding-right: 90px!important;
 }
 
 .btn-grad {
@@ -63,9 +84,9 @@ a {
   border: 0;
   color: #fff;
   font-size: 14px;
-  padding-left: 60px!important;
+  padding-left: 80px!important;
   font-weight: 500;
-  padding-right: 60px!important;
+  padding-right: 80px!important;
 }
 
 .btn-fff:hover,
@@ -74,9 +95,9 @@ a {
   border: #f9f9f9;
   color: #1E2C31;
   font-size: 14px;
-  padding-left: 60px!important;
+  padding-left: 80px!important;
   font-weight: 500;
-  padding-right: 60px!important;
+  padding-right: 80px!important;
 }
 
 .btn-main:hover,
@@ -664,7 +685,8 @@ a {
 }
 
 .flex-lending p,
-.fast p{
+.fast p,
+.flex p {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
@@ -679,5 +701,99 @@ a {
 
 .fast {
   background-color: #FFFEFA;
+  padding: 150px 20px;
+}
+
+.steps {
+  padding: 90px 20px;
+  background-color: #f9f9f9;
+}
+
+@media (min-width: 992px){
+  .steppings {
+    padding-right: 100px;
+  }
+}
+
+.steps h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.steps p {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.steps h5 {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.line {
+  width: 1px;
+  background: linear-gradient(91.8deg, #0C6B8A 4.78%, #FFCC00 97.92%)!important;
+}
+
+.lead {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.digits {
+  border: 1px solid #0C6B8A;
+  border-radius: 100%;
+  padding: 11px;
+}
+
+.steppings h5 {
+  font-size: 25px;
+  line-height: 27px;
+  font-weight: 400;
+  font-family: mag;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #0C6B8A 4.78%, #FFCC00 97.92%)!important;
+  -webkit-background-clip: text!important;
+}
+
+.steppings p {
+  color: #1E2C31;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.loan-interest {
+  background-image: url("./assets/loanbg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+
+.loan-interest h6 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.loan-interest p {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.loan-interest h2 {
+  font-size: 65px;
+  line-height: 100px;
+  font-weight: 400;
+  font-family: mag;
+}
+
+.flex {
+  background-color: #fff;
   padding: 150px 20px;
 }
