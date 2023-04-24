@@ -765,7 +765,8 @@ a {
   font-weight: 400;
 }
 
-.loan-interest {
+.loan-interest, 
+.hargon-market {
   background-image: url("./assets/loanbg.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -780,7 +781,8 @@ a {
   letter-spacing: 4px;
 }
 
-.loan-interest p {
+.loan-interest p,
+.hargon-market p {
   font-size: 12px;
   line-height: 20px;
   font-weight: 400;
@@ -796,4 +798,11 @@ a {
 .flex {
   background-color: #fff;
   padding: 150px 20px;
+}
+
+.hargon-market h2 {
+  font-size: 65px;
+  line-height: 69px;
+  font-weight: 400;
+  font-family: mag;
 }
