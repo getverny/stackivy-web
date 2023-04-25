@@ -1,13 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import Ardilla from './pages/ardilla';
 import Hargon from './pages/hargon';
+import ScrollToTop from './scrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     minBreakpoint="xxs"
   >
     <BrowserRouter>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/ardilla" element={<Ardilla/>}></Route>

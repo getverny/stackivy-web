@@ -42,8 +42,8 @@ function NoTop() {
               <img src={liner} alt="liner" className="img-fluid mb-3" />
               <h4>Tailored</h4>
               <ul className="list-unstyled links">
-                <li><Link>Ardilla</Link></li>
-                <li><Link>Hargon</Link></li>
+                <li><Link to="/ardilla">Ardilla</Link></li>
+                <li><Link to="/hargon">Hargon</Link></li>
                 <li><Link>Keed <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
                 <li><Link>Vernde <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
                 <li><Link>Onwa <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
