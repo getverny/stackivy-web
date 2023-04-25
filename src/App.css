@@ -822,7 +822,8 @@ a {
 }
 
 .financial-coach h2,
-.traction h2 {
+.traction h2,
+.transact h2 {
   font-family: mag;
   font-size: 70px;
   font-weight: 400;
@@ -955,4 +956,31 @@ a {
   padding: 3px 11px;
   color: #fff;
   border-radius: 2px;
+}
+
+.transact {
+  background-color: #FCFCFC;
+  padding: 150px 20px;
+}
+
+.transact h6 {
+  color: #1E2C31;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.transact p {
+  color: #1E2C31;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.transact h3 {
+  color: #1E2C31;
+  font-size: 50px;
+  line-height: 80px;
+  font-family: mag;
+  font-weight: 400;
 }

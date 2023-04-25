@@ -4,6 +4,7 @@ import FinancialCoaching from "../components/financialCoaching";
 import NoTop from "../components/footerwithoutTop";
 import SavePace from "../components/savePace";
 import Traction from "../components/traction";
+import Transact from "../components/transactArdilla";
 
 function Ardilla() {
   return (
@@ -13,6 +14,7 @@ function Ardilla() {
       <FinancialCoaching/>
       <SavePace/>
       <Traction/>
+      <Transact/>
       <NoTop/>
     </div>
   );
