@@ -28,7 +28,7 @@ function HargonTraction() {
           <div className="col-md-3 mb-3">
             <div className="traction-cards client">
               <p>Onboarded <span className="hgl" style={{background: "#9F9704"}}>Clients</span></p>
-              <h3><CountUp end={1000} delay={3} duration="20"  /> M</h3>
+              <h3><CountUp end={1000} delay={3} duration="20"  />+</h3>
             </div>
           </div>
           <div className="col-md-3 mb-3">
