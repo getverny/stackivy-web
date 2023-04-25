@@ -17,7 +17,7 @@ function NoTop() {
   };
   return (
     <section className="">
-      <footer className="footer-bottom">
+      <footer className="footer-bottom mt-0">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-sm-4 text-center">

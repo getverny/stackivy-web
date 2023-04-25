@@ -110,10 +110,8 @@ a {
   padding-right: 60px!important;
 }
 
-
-
 .ardilla-header {
-  background-color: #2D0053;
+  background-color: #3c0a52;
 }
 
 .hargon-header {
@@ -651,7 +649,10 @@ a {
 
 .ardilla-hero {
   padding: 200px 0px;
-  background-color: #2d0053;
+  background-image: url("./assets/ardbg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
@@ -814,4 +815,59 @@ a {
   line-height: 69px;
   font-weight: 400;
   font-family: mag;
+}
+
+.financial-coach {
+  padding: 100px 20px;
+}
+
+.financial-coach h2 {
+  font-family: mag;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 90px;
+}
+
+.financial-coach h6 {
+  color: #6B7280;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.fin-coach {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #750EF6 4.78%, #FF0000 97.92%)!important;
+  -webkit-background-clip: text!important;
+}
+
+.number-04 {
+  background-image: url("./assets/01.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 88px 20px;
+  min-height: 424px;
+}
+
+.number-04 h3 {
+  color: #750EF6;
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 700;
+}
+ 
+.number-04 h4 {
+  color: #1E2C31;
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: mag;
+}
+
+.number-04 p {
+  color: #6B7280;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
 }
