@@ -821,7 +821,8 @@ a {
   padding: 100px 20px;
 }
 
-.financial-coach h2 {
+.financial-coach h2,
+.traction h2 {
   font-family: mag;
   font-size: 70px;
   font-weight: 400;
@@ -870,4 +871,88 @@ a {
   font-size: 14px;
   line-height: 32px;
   font-weight: 400;
+}
+
+.savepace {
+  background-image: url("./assets/pace.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 500px 20px 200px 20px;
+}
+
+.savepace h2 {
+  font-size: 70px;
+  line-height: 75px;
+  font-weight: 400;
+  font-family: mag;
+}
+
+.savepace h6, 
+.savepace p {
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #1E2C31;
+}
+
+.savepace h4 {
+  color: #1E2C31;
+  font-weight: 400;
+  font-family: mag;
+  line-height: 50px;
+  font-size: 40px;
+}
+
+.traction {
+  background-color: #fff;
+  padding: 200px 20px;
+}
+
+.traction h6 {
+  color: #1E2C31;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.traction-cards {
+  padding: 250px 40px 200px 40px;
+  background-image: url('./assets/100m.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 70px 70px 0px 70px;
+}
+
+.risky {
+  background-image: url('./assets//risk.svg')!important;
+  border-radius: 70px 70px 70px 0px;
+}
+
+.paidback {
+  background-image: url('./assets/paid.svg')!important;
+  border-radius: 70px 70px 70px 0px;
+}
+
+
+.traction-cards p {
+  color: #2A332C;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.traction-cards h3 {
+  color: #2A332C;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 100px;
+}
+
+.hgl {
+  background: #33593D;
+  padding: 3px 11px;
+  color: #fff;
+  border-radius: 2px;
 }

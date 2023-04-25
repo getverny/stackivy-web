@@ -43,11 +43,11 @@ function NoTop() {
               <h4>Tailored</h4>
               <ul className="list-unstyled links">
                 <li><Link>Ardilla</Link></li>
+                <li><Link>Hargon</Link></li>
                 <li><Link>Keed <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
                 <li><Link>Vernde <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
                 <li><Link>Onwa <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
                 <li><Link>Pomelo <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
-                <li><Link>Hargon <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
                 <li><Link>Nearly <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
                 <li><Link>Zettarh <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
                 <li><Link>Curved <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
