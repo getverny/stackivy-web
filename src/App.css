@@ -937,6 +937,42 @@ a {
   border-radius: 70px 70px 70px 0px;
 }
 
+.biznes {
+  background-image: url('./assets/b.svg')!important;
+  border-radius: 50px 50px 0px 50px;
+}
+
+.profit {
+  background-image: url('./assets/profit.svg')!important;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.client {
+  background-image: url('./assets/client.svg')!important;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.risks {
+  background-image: url('./assets/riskman.svg')!important;
+  border-radius: 50px 50px 50px 0px;
+}
+
+.biznes h3,
+.profit h3,
+.client h3,
+.risks h3 {
+  font-size: 50px!important;
+  line-height: 48px!important;
+}
+
+.biznes p,
+.profit p,
+.client p,
+.risks p {
+  font-size: 14px!important;
+  line-height: 14px!important;
+}
+
 
 .traction-cards p {
   color: #2A332C;

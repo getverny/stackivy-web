@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import Ardilla from './pages/ardilla';
 import Hargon from './pages/hargon';
-import ScrollToTop from './scrollToTop';
+// import ScrollToTop from './scrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +17,7 @@ root.render(
     minBreakpoint="xxs"
   >
     <BrowserRouter>
-      <ScrollToTop/>
+      {/* <ScrollToTop/> */}
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/ardilla" element={<Ardilla/>}></Route>

@@ -5,6 +5,7 @@ import NoTop from "../components/footerwithoutTop";
 import HargonHero from "../components/hargonHero";
 import HargonMarket from "../components/hargonMarket";
 import HargonHeader from "../components/hargonNavbar";
+import HargonTraction from "../components/hargonTraction";
 import LoanInterest from "../components/loanInterest";
 
 function Hargon() {
@@ -16,6 +17,7 @@ function Hargon() {
       <Fast/>
       <LoanInterest/>
       <Flex/>
+      <HargonTraction/>
       <HargonMarket/>
       <NoTop/>
     </div>
