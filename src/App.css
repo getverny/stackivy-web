@@ -649,7 +649,14 @@ a {
   background-color: #228922;
 }
 
-.hargon-hero h1 {
+.ardilla-hero {
+  padding: 200px 0px;
+  background-color: #2d0053;
+  
+}
+
+.hargon-hero h1,
+.ardilla-hero h1 {
   font-family: mag;
   font-size: 70px;
   line-height: 75px;
@@ -657,14 +664,16 @@ a {
   color: #fff;
 }
 
-.hargon-hero h6 {
+.hargon-hero h6,
+.ardilla-hero h6 {
   font-size: 14px;
   line-height: 24px;
   font-weight: 500;
   color: #fff;
 }
 
-.hargon-hero span {
+.hargon-hero span,
+.ardilla-hero span {
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
