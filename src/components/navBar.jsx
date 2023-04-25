@@ -104,7 +104,7 @@ function Header () {
                   <div className='col-sm-3 mb-2'>
                     <h4>Personal</h4>
                     <ul className="list-unstyled links">
-                      <li><Link>Budgeting tools</Link></li>
+                      <li><Link to="/budgeting-tools">Budgeting tools</Link></li>
                       <li><Link>Financial education</Link></li>
                       <li><Link>Wealth management</Link></li>
                       <li><Link>Retirement planning</Link></li>

@@ -1029,5 +1029,24 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+}
+
+.budgeting {
+  background-color: #F1FBFE;
+  padding: 200px 20px;
+}
+
+.budgeting h2 {
+  font-size: 65px;
+  line-height: 69px;
+  font-family: mag;
+  font-weight: 400;
+  color: #1E2C31;
+}
+
+.budgeting h6 {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #1E2C31;
 }
