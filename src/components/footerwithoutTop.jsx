@@ -4,6 +4,7 @@ import linkedin from "../assets/linkedin.svg";
 import liner from "../assets/liner.svg";
 import twitter from "../assets/twitter.svg";
 import { Link } from "react-router-dom";
+import comingsoon from "../assets/footersoon.svg";
 import React, { useState } from "react";
 
 function NoTop() {
@@ -36,20 +37,20 @@ function NoTop() {
               <h5>Our Products</h5>
               <h4>Custom</h4>
               <ul className="list-unstyled links">
-                <li><Link>Onescud</Link></li>
+                <li><Link>Onescud <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
               </ul>
               <img src={liner} alt="liner" className="img-fluid mb-3" />
               <h4>Tailored</h4>
               <ul className="list-unstyled links">
                 <li><Link>Ardilla</Link></li>
-                <li><Link>Keed</Link></li>
-                <li><Link>Vernde</Link></li>
-                <li><Link>Onwa</Link></li>
-                <li><Link>Pomelo</Link></li>
-                <li><Link>Hargon</Link></li>
-                <li><Link>Nearly</Link></li>
-                <li><Link>Zettarh</Link></li>
-                <li><Link>Curved</Link></li>
+                <li><Link>Keed <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
+                <li><Link>Vernde <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
+                <li><Link>Onwa <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
+                <li><Link>Pomelo <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
+                <li><Link>Hargon <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
+                <li><Link>Nearly <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
+                <li><Link>Zettarh <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
+                <li><Link>Curved <img src={comingsoon} alt="coming-soon" className="img-fluid ms-2" width={60} /></Link></li>
               </ul>
             </div>
             <div className="col-sm mb-3">

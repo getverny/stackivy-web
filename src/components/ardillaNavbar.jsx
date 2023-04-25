@@ -8,7 +8,7 @@ import nig from "../assets/9ja.svg";
 import usa from "../assets/usa.svg";
 import uk from "../assets/uk.svg";
 import zim from "../assets/zim.svg";
-import globe from "../assets/globe.svg";
+import globe from "../assets/globe-fff.svg";
 import ardilla from "../assets/ardilla.svg";
 import vernde from "../assets/vernde.svg";
 import zetta from "../assets/zetta.svg";
