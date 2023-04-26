@@ -1,4 +1,4 @@
-import talk from "../assets/talk.svg";
+import talk from "../assets/join.svg";
 import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import linkedin from "../assets/linkedin.svg";
@@ -22,8 +22,8 @@ function BudgetFooter() {
         <div className="row justify-content-center">
           <div className="col-md-10">
             <div className="footer-top bud-foot">
-              <h4 className="text-white">Building the next big thing?</h4>
-              <h6 className="text-white my-4">Stackivy is interested in speaking with companies who want to build<br/>tech-enabled products and platforms.</h6>
+              <h4 className="text-white">Be Part of the Stackivy Community</h4>
+              <h6 className="text-white my-4 w-50">Stackivy community is Africa's leading finance forum comprising of the best financial minds on the continent. Our community is changing the narrative of finance on the continent and we need your input.</h6>
               <Link><img src={talk} alt="let-talk" className="img-fluid float-end" /></Link>
             </div>
           </div>

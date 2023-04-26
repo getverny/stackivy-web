@@ -1,7 +1,7 @@
 import Benefits from "../components/benefits";
+import BudgetFooter from "../components/budgetFooter";
 import BudgetingHero from "../components/budgetingHero";
 import DillaBudget from "../components/dillaBudget";
-import Footer from "../components/footer";
 import Info from "../components/info";
 import Header from "../components/navBar";
 
@@ -13,7 +13,7 @@ function Budgeting() {
       <DillaBudget/>
       <Benefits/>
       <Info/>
-      <Footer/>
+      <BudgetFooter/>
     </div>
   );
 }
