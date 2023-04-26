@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import fin from "../assets/heroimg.svg";
 
 
-function FinHero() {
+function EducationResources() {
   return (
-    <section className="fin-hero">
+    <section className="education">
       <div className="container">
         <div className="row">
           <div className="col-sm-6 mb-3">
@@ -26,4 +26,4 @@ function FinHero() {
   );
 }
 
-export default FinHero;
+export default EducationResources;
