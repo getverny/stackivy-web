@@ -6,7 +6,7 @@ function BudgetingHero() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-sm-10 text-center">
-            <h2><img src={track} alt="track" className="img-fluid" /> Track and control your money with Stackivy's budgetting tools</h2>
+            <h2><img src={track} alt="track" className="img-fluid" /> <span className="track">Track and control</span> your money with Stackivy's budgetting tools</h2>
           </div>
         </div>
         <div className="row justify-content-center mt-5">

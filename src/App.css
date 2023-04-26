@@ -844,6 +844,12 @@ a {
   -webkit-background-clip: text!important;
 }
 
+.track {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #2563EB 4.78%, #35FF49 97.92%)!important;
+  -webkit-background-clip: text!important;
+}
+
 .number-04 {
   background-image: url("./assets/01.svg");
   background-position: center;
@@ -983,9 +989,9 @@ a {
 
 .traction-cards h3 {
   color: #2A332C;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 800;
-  line-height: 100px;
+  line-height: 70px;
 }
 
 .hgl {
@@ -1049,4 +1055,75 @@ a {
   line-height: 20px;
   font-weight: 400;
   color: #1E2C31;
+}
+
+.dillabudget {
+  padding: 100px 20px;
+}
+
+.dilla-cards {
+  background-image: url("./assets/dillbg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 50px 0px 50px;
+  border-radius: 40px;
+}
+
+.hargonbg {
+  background-image: url("./assets/hargonbg.svg")!important;
+}
+
+.dilla-cards h3 {
+  font-size: 65px;
+  line-height: 83px;
+  font-family: mag;
+  font-weight: 400;
+}
+
+.dilla-cards p {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.benefits {
+  padding: 100px 20px;
+  background-image: url("./assets/benefits.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.benefits h3 {
+  font-size: 53px;
+  line-height: 68px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.benefits p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.benefit-cards {
+  padding: 50px;
+  margin: 0px 40px;
+}
+
+.benefit-cards:hover {
+  padding: 50px;
+  background: linear-gradient(124.78deg, #2563EB -19.18%, #35FF49 140.85%);
+  border-radius: 15.5885px;
+  cursor: pointer;
+}
+
+.benefit-cards h4 {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #fff;
 }
