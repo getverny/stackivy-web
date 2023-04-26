@@ -1,6 +1,3 @@
-import fin from "../assets/heroimg.svg";
-
-
 function FinHero() {
   return (
     <section className="fin-hero">
