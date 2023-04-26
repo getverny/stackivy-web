@@ -1173,7 +1173,7 @@ a {
 
 .info .form-label {
   color: #1E2C31;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   font-weight: 500;
 }
@@ -1182,4 +1182,27 @@ a {
   border: 1px solid #9CA3AF;
   padding: 11px 20px;
   border-radius: 0px;
+}
+
+.fin-hero {
+  background-image: url("./assets/heroback.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+.fin-hero h2  {
+  font-size: 70px;
+  line-height: 80px;
+  font-family: mag;
+  font-weight: 400;
+  color: #000;
+}
+
+.fin-hero h6  {
+  font-size: 12px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #1E2C31;
 }
