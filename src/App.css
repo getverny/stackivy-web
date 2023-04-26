@@ -43,9 +43,9 @@ a {
   background-color: #0C6B8A;
   border: #0C6B8A;
   font-size: 14px;
-  padding-left: 60px!important;
+  padding-left: 70px!important;
   font-weight: 500;
-  padding-right: 60px!important;
+  padding-right: 70px!important;
 }
 
 .btn-fff {
@@ -53,9 +53,9 @@ a {
   border: #fff;
   color: #1E2C31;
   font-size: 14px;
-  padding-left: 80px!important;
+  padding-left: 70px!important;
   font-weight: 500;
-  padding-right: 80px!important;
+  padding-right: 70px!important;
 }
 
 .btn-green,
@@ -95,9 +95,9 @@ a {
   border: #f9f9f9;
   color: #1E2C31;
   font-size: 14px;
-  padding-left: 80px!important;
+  padding-left: 70px!important;
   font-weight: 500;
-  padding-right: 80px!important;
+  padding-right: 70px!important;
 }
 
 .btn-main:hover,
@@ -105,9 +105,9 @@ a {
   background-color: #0A5770!important;
   border: #0A5770;
   font-size: 14px;
-  padding-left: 60px!important;
+  padding-left: 70px!important;
   font-weight: 500;
-  padding-right: 60px!important;
+  padding-right: 70px!important;
 }
 
 .ardilla-header {
@@ -412,6 +412,10 @@ a {
   border-radius: 30px;
   margin: 0;
   padding: 100px 50px;
+}
+
+.bud-foot {
+  background-image: url("./assets/footertoop.svg");
 }
 
 .footer-bottom {
@@ -1126,4 +1130,8 @@ a {
   line-height: 18px;
   font-weight: 500;
   color: #fff;
+}
+
+.info {
+  padding: 100px 20px;
 }
