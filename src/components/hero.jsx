@@ -11,7 +11,7 @@ function Hero() {
             <button className="btn btn-primary btn-main rounded-pill px-5 py-3">Get Started</button>
           </div>
         </div>
-        <div className="row justify-content-center" style={{marginTop: "150px"}}>
+        <div className="row justify-content-center" style={{marginTop: "50px"}}>
           <div className="col-md-10 text-center">
             <img src={desktop} alt="desktop" className="img-fluid w-100" />
           </div>
