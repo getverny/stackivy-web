@@ -105,7 +105,7 @@ function HargonHeader () {
                     <h4>Personal</h4>
                     <ul className="list-unstyled links">
                       <li><Link to="/budgeting-tools">Budgeting tools</Link></li>
-                      <li><Link>Financial education</Link></li>
+                      <li><Link to="/financial-education">Financial education</Link></li>
                       <li><Link>Wealth management</Link></li>
                       <li><Link>Retirement planning</Link></li>
                       <li><Link>Cross-border payment solutions </Link></li>

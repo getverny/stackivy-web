@@ -1146,12 +1146,20 @@ a {
   font-weight: 500;
 }
 
+.fin-info .nav-tabs .nav-link.active {
+  border: 0;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #8807F7 4.78%, #F9721A 97.92%)!important;
+  -webkit-background-clip: text!important;
+  /* border-bottom: 3px solid #35FF49!important ; */
+}
+
 .info .nav-tabs .nav-link.active {
   border: 0;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(91.8deg, #2563EB 4.78%, #35FF49 97.92%)!important;
-  -webkit-background-clip: text!important;
-  /* border-bottom: 3px solid #35FF49!important ; */
+  background: linear-gradient(91.8deg, #2563EB 4.78%, #35FF49 97.92%);
+  -webkit-background-clip: text;
+  /* border-bottom: 3px solid #35FF49 ; */
 }
 
 .info .nav-tabs {

@@ -10,6 +10,9 @@ import Ardilla from './pages/ardilla';
 import Hargon from './pages/hargon';
 import ScrollToTop from './scrollToTop';
 import Budgeting from './pages/budgeting';
+import FinancialEducation from './pages/financialEducation';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +27,7 @@ root.render(
         <Route path="/ardilla" element={<Ardilla/>}></Route>
         <Route path="/hargon" element={<Hargon/>}></Route>
         <Route path="/budgeting-tools" element={<Budgeting/>}></Route>
+        <Route path="/financial-education" element={<FinancialEducation/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>

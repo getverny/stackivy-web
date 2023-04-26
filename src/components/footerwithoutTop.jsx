@@ -3,9 +3,9 @@ import instagram from "../assets/instagram.svg";
 import linkedin from "../assets/linkedin.svg";
 import liner from "../assets/liner.svg";
 import twitter from "../assets/twitter.svg";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import comingsoon from "../assets/footersoon.svg";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function NoTop() {
   const [value, setValue] = useState("");
@@ -15,6 +15,21 @@ function NoTop() {
   const onClear = () => {
     setValue("");
   };
+  const ScrollToTop = () => {
+    const { pathname } = useLocation()
+
+    useEffect(() => {
+      document.documentElement.scrollTo({
+      // window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth',
+      })
+    }, [pathname])
+    return null
+  }
+  ScrollToTop()
+
   return (
     <section className="">
       <footer className="footer-bottom mt-0">
