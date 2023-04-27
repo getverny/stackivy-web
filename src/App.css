@@ -69,7 +69,8 @@ a {
   padding-right: 90px!important;
 }
 
-.btn-000 {
+.btn-000, 
+.btn-000:hover {
   background-color: #000;
   border: #fff;
   color: #fff;
@@ -1196,7 +1197,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 150px 20px;
+  padding: 200px 20px;
 }
 
 .fin-hero h2  {
@@ -1228,4 +1229,82 @@ a {
   font-family: mag;
   font-weight: 400;
   color: #1E2C31;
+}
+
+.education h3, 
+.bepart h2  {
+  font-size: 40px;
+  line-height: 40px;
+  font-family: mag;
+  font-weight: 400;
+  color: #1E2C31;
+}
+
+.education h6 {
+  color: #1E2C31;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.education p,
+.bepart p {
+  color: #000;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.toppings {
+  margin-top: 120px;
+}
+
+.keed {
+  background-image: url("./assets/kiddie.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 20px 0px 20px;
+}
+
+.keed p {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.keed h3 {
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: 500;
+  font-family: mag;
+}
+
+.bestdecision {
+  background-image: url("./assets/earth.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 20px 0px 20px;
+}
+
+.bestdecision p {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.bestdecision h3 {
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: 500;
+  font-family: mag;
+}
+
+.bepart {
+  background-image: url("./assets/community.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px 60px 20px;
 }
