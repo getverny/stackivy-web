@@ -1,4 +1,5 @@
-html,body {
+html,
+body {
   background-color: #fff;
   overflow-x: hidden!important;
   -webkit-box-sizing: border-box;
@@ -7,6 +8,7 @@ html,body {
   height: 100%;
   margin: 0;
   font-family: mona;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -817,7 +819,8 @@ a {
 
 .hargon-market h2,
 .info h2,
-.wealthhero h2 {
+.wealthhero h2,
+.befree h2 {
   font-size: 65px;
   line-height: 69px;
   font-weight: 400;
@@ -1030,7 +1033,8 @@ a {
 }
 
 .transact p,
-.wealthhero p {
+.wealthhero p,
+.befree p {
   color: #1E2C31;
   font-size: 14px;
   line-height: 28px;
@@ -1318,5 +1322,9 @@ a {
 
 .befree {
   background-color: #fff;
-  padding: 100px 20px
+  padding: 90px 20px
+}
+
+.plan-retire {
+  background: linear-gradient(180deg, rgba(243, 250, 252, 0.35) 0%, #F3FAFC 100%)!important;
 }

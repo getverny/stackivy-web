@@ -5,7 +5,7 @@ import need from "../assets/needmore.svg";
 
 function Info() {
   return (
-    <section className="info">
+    <section className="info" id='startbuilding'>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-sm-6 text-center">
