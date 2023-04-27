@@ -1349,3 +1349,7 @@ a {
   line-height: 65px;
   font-weight: 500;
 }
+
+.whyi {
+  background-image: url("./assets/isbg.svg")!important;
+}
