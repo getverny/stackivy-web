@@ -8,8 +8,13 @@ function Linear() {
           <div className="col-sm-8">
             <img src={why} alt="why" className="img-fluid mb-4" />
             <p className="text-white">Our wealth management platform allows you</p>
-            <div className="toppings">
-              <span className="text-white carou">Build sustainable wealth</span>
+            <div className="toppings" id="cont">
+              <div id="flip">
+                <div><div className="text-white carou">Build sustainable wealth</div></div>
+                <div><div className="text-white carou">Manage your expenses</div></div>
+                <div><div className="text-white carou">Helps you with a succession plan</div></div>
+                <div><div className="text-white carou">Gives you lots of options</div></div>
+              </div>
             </div>
           </div>
         </div>
