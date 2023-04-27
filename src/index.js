@@ -12,6 +12,7 @@ import ScrollToTop from './scrollToTop';
 import Budgeting from './pages/budgeting';
 import FinancialEducation from './pages/financialEducation';
 import Wealth from './pages/wealthManagement';
+import CrossBorder from './pages/crossBorderPayment';
 
 
 
@@ -30,6 +31,7 @@ root.render(
         <Route path="/budgeting-tools" element={<Budgeting/>}></Route>
         <Route path="/financial-education" element={<FinancialEducation/>}></Route>
         <Route path="/wealth-management" element={<Wealth/>}></Route>
+        <Route path="/cross-border" element={<CrossBorder/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>
