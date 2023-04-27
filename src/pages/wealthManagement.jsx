@@ -1,3 +1,4 @@
+import BeFree from "../components/beFree";
 import BudgetFooter from "../components/budgetFooter";
 import Info from "../components/info";
 import Header from "../components/navBar";
@@ -8,6 +9,7 @@ function Wealth() {
     <div>
       <Header/>
       <WealthHero/>
+      <BeFree/>
       <Info/>
       <BudgetFooter/>
     </div>
