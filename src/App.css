@@ -816,7 +816,8 @@ a {
 }
 
 .hargon-market h2,
-.info h2 {
+.info h2,
+.wealthhero h2 {
   font-size: 65px;
   line-height: 69px;
   font-weight: 400;
@@ -1028,7 +1029,8 @@ a {
   font-weight: 400;
 }
 
-.transact p {
+.transact p,
+.wealthhero p {
   color: #1E2C31;
   font-size: 14px;
   line-height: 28px;
@@ -1307,4 +1309,9 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 20px 60px 20px;
+}
+
+.wealthhero {
+  background-color: #000;
+  padding: 200px 20px;
 }

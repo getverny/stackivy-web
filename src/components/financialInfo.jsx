@@ -25,7 +25,7 @@ function FinancialInfo() {
             </ul>
           </div>
           <div className="tab-content" id="myTabContent">
-            <div className="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <div className="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabIndex="0">
               <div className='row mt-5 justify-content-center'>
                 <div className='col-sm-10'>
                   <Form>
@@ -73,7 +73,7 @@ function FinancialInfo() {
                 </div>
               </div>
             </div>
-            <div className="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <div className="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabIndex="0">
               <div className='row mt-5 justify-content-center'>
                 <div className='col-sm-10'>
                   <Form>
