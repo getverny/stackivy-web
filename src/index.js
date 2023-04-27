@@ -11,6 +11,7 @@ import Hargon from './pages/hargon';
 import ScrollToTop from './scrollToTop';
 import Budgeting from './pages/budgeting';
 import FinancialEducation from './pages/financialEducation';
+import Wealth from './pages/wealthManagement';
 
 
 
@@ -28,6 +29,7 @@ root.render(
         <Route path="/hargon" element={<Hargon/>}></Route>
         <Route path="/budgeting-tools" element={<Budgeting/>}></Route>
         <Route path="/financial-education" element={<FinancialEducation/>}></Route>
+        <Route path="/wealth-management" element={<Wealth/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>

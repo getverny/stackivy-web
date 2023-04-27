@@ -4,6 +4,7 @@ import left from "../assets/keedleft.svg";
 
 
 
+
 function EducationResources() {
   return (
     <section className="education">

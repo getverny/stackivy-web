@@ -10,6 +10,7 @@ import Navbar from './components/navBar';
 import Partners from './components/partners';
 import Unlocked from './components/unlock';
 
+
 function App() {
   return (
     <div>
