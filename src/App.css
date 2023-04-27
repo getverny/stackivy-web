@@ -1254,7 +1254,8 @@ a {
 }
 
 .education p,
-.bepart p {
+.bepart p,
+.linear p {
   color: #000;
   font-size: 14px;
   line-height: 28px;
@@ -1327,4 +1328,24 @@ a {
 
 .plan-retire {
   background: linear-gradient(180deg, rgba(243, 250, 252, 0.35) 0%, #F3FAFC 100%)!important;
+}
+
+.linear {
+  background-image: url("./assets/linear.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+
+.linear h3 {
+  font-size: 65px;
+  line-height: 65px;
+  font-weight: 300;
+}
+
+.carou {
+  font-size: 30px;
+  line-height: 65px;
+  font-weight: 500;
 }
