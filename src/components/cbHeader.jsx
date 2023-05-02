@@ -107,7 +107,7 @@ function CBHeader () {
                       <li><Link to="/budgeting-tools">Budgeting tools</Link></li>
                       <li><Link to="/financial-education">Financial education</Link></li>
                       <li><Link to="/wealth-management">Wealth management</Link></li>
-                      <li><Link to="/cross-border">Cross-border payment solutions </Link></li>
+                      <li><Link to="/cross-border">Cross-border payment </Link></li>
                       <li><Link>Payment gateway solutions </Link></li>
                       <li><Link>Cryptocurrency  </Link></li>
                       <li><Link>Foreign exchange trading  </Link></li>
