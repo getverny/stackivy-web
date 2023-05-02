@@ -26,7 +26,7 @@ function BWV() {
             <img src={stream} alt="spark" className="img-fluid" />
           </div>
           <div className="col-sm-5 mt-9">
-            <h6 className="mb-4"><span className="cb">Streamline</span>Reconciliation</h6>
+            <h6 className="mb-4"><span className="cb">Streamline</span> Reconciliation</h6>
             <p className="">Reconciling payments can be a time-consuming process, but Vernde makes it easy. Our platform streamlines the reconciliation process, saving you time and making it easier to keep your records accurate.</p>
           </div>
         </div>
