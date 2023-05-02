@@ -13,7 +13,7 @@ function CrossInfo() {
             <h6 className="mt-4">Choose which of our products you want to be contacted for by filling the form below</h6>
           </div>
         </div>
-        <div className="row mt-9 justify-content-center">
+        <div className="row mt-9 justify-content-center cross-info">
           <div className="col-sm-3 text-center">
             <ul className="nav nav-tabs nav-fill" id="myTab" role="tablist">
               <li className="nav-item" role="presentation">
