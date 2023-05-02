@@ -1,8 +1,7 @@
-import hargon from "../assets/fone.svg";
 
 function Vernde() {
   return (
-    <section className="dillabudget" style={{background: "#FFFEF3"}}>
+    <section className="pt-5" style={{background: "#FFFEF3"}}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-sm-12">
@@ -24,9 +23,6 @@ function Vernde() {
                   <h3 className="mb-3 text-white">Vernde</h3>
                   <p className="text-white mb-5">Vernde offers a cross-border payment solution that enables individuals and businesses to send money to Nigeria and other African countries with low fees and fast processing times.</p>
                 </div>
-                {/* <div className="col-sm-6">
-                  <img src={hargon} alt="hargon" className="img-fluid" />
-                </div> */}
               </div>
             </div>
           </div>
