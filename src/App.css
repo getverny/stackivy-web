@@ -1201,6 +1201,7 @@ a {
   border: 1px solid #9CA3AF;
   padding: 11px 20px;
   border-radius: 0px;
+  background: transparent;
 }
 
 .fin-hero {
