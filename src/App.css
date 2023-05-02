@@ -721,6 +721,12 @@ a {
   -webkit-background-clip: text!important;
 }
 
+.cb {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #FF6648 4.78%, #FFF96A 97.92%)!important;
+  -webkit-background-clip: text!important;
+}
+
 .fast {
   background-color: #FFFEFA;
   padding: 150px 20px;
@@ -1099,14 +1105,16 @@ a {
   background-image: url("./assets/hargonbg.svg")!important;
 }
 
-.dilla-cards h3 {
+.dilla-cards h3,
+.vernde-bg h3 {
   font-size: 65px;
   line-height: 83px;
   font-family: mag;
   font-weight: 400;
 }
 
-.dilla-cards p {
+.dilla-cards p,
+.vernde-bg p {
   font-size: 13px;
   line-height: 20px;
   font-weight: 400;
@@ -1395,4 +1403,38 @@ a {
   71% {margin-top:0px;}
   99.99% {margin-top:0px;}
   100% {margin-top:-270px;}
+}
+
+.cbhero {
+  background: #FFFEF3;
+  padding: 150px 20px;
+}
+
+.cbhero h2 {
+  font-size: 64px;
+  line-height: 69px;
+  font-weight: 400;
+  font-family: mag;
+  color: #1E2C31;
+}
+
+.cbhero p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #1E2C31;
+}
+
+.vernde-bg {
+  background-image: url("./assets/bg-vernde.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 85px;
+  border-radius: 32px 32px 0px 0px;
+  min-height: 416px
+}
+
+.vnf {
+  background-image: url("./assets/vnf.svg")!important;
 }
