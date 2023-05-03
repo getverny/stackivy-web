@@ -1578,7 +1578,8 @@ a {
 .pomelobg h6,
 .bringbg p,
 .qrcode p,
-.cryptohero h6 {
+.cryptohero h6,
+.tradecrypto p {
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -1641,4 +1642,34 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 200px 20px;
+}
+
+.tradecrypto {
+  background-image: url("./assets/trade.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+.tradecrypto h6 {
+  font-size: 14px;
+  line-height: 13px;
+  font-weight: 400;
+}
+
+.tradecrypto h2 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  background: linear-gradient(90.23deg, #FFDA6D 6.23%, #D7DBFF 45.76%, #47AA8B 101.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: mag;
+}
+
+.csave {
+  background-image: url("./assets/csave.svg")!important;
 }
