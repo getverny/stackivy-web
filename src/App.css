@@ -1548,3 +1548,38 @@ a {
 .pom-header {
   background: #f9fcf3;
 }
+
+.domore {
+  background-image: url("./assets/more.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 20px;
+}
+
+.domore h2,
+.paymentrest h2 {
+  font-size: 65px;
+  line-height: 69px;
+  font-weight: 400;
+  font-family: mag;
+}
+
+.domore p,
+.paymentrest p {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #000;
+}
+
+.pr {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #008631 4.78%, #FFE600 97.92%)!important;
+  -webkit-background-clip: text!important;
+}
+
+.paymentrest {
+  padding: 150px 20px;
+  background-color: #fff;
+}
