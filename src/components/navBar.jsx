@@ -107,9 +107,8 @@ function Header () {
                       <li><Link to="/budgeting-tools">Budgeting tools</Link></li>
                       <li><Link to="/financial-education">Financial education</Link></li>
                       <li><Link to="/wealth-management">Wealth management</Link></li>
-                      <li><Link>Retirement planning</Link></li>
                       <li><Link to="/cross-border">Cross-border payment</Link></li>
-                      <li><Link to="/pomelo">Payment gateway solutions </Link></li>
+                      <li><Link to="/payment-gateway">Payment gateway solutions </Link></li>
                       <li><Link>Cryptocurrency  </Link></li>
                       <li><Link>Foreign exchange trading  </Link></li>
                       <li><Link>Microfinance solutions  </Link></li>

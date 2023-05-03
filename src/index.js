@@ -34,7 +34,7 @@ root.render(
         <Route path="/financial-education" element={<FinancialEducation/>}></Route>
         <Route path="/wealth-management" element={<Wealth/>}></Route>
         <Route path="/cross-border" element={<CrossBorder/>}></Route>
-        <Route path="/pomelo" element={<Pomelo/>}></Route>
+        <Route path="/payment-gateway" element={<Pomelo/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>
