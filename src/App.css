@@ -1200,6 +1200,13 @@ a {
   -webkit-background-clip: text!important;
 }
 
+.black-info .nav-tabs .nav-link.active {
+  border: 0;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90.23deg, #FFDA6D 6.23%, #D7DBFF 45.76%, #47AA8B 101.44%)!important;
+  -webkit-background-clip: text!important;
+}
+
 .info .nav-tabs .nav-link.active {
   border: 0;
   -webkit-text-fill-color: transparent;
@@ -1222,6 +1229,21 @@ a {
   font-size: 15px;
   line-height: 24px;
   font-weight: 500;
+}
+
+.black-info .form-label {
+  color: #fff;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.black-info .form-control {
+  border: 1px solid #9CA3AF;
+  padding: 11px 20px;
+  border-radius: 0px;
+  color: #fff;
+  background: transparent;
 }
 
 .info .form-control {
@@ -1564,6 +1586,10 @@ a {
   padding: 250px 20px;
 }
 
+.bps {
+  background-image: url("./assets/bps.svg")!important;
+}
+
 .domore h2,
 .paymentrest h2,
 .qrcode h3 {
@@ -1579,7 +1605,8 @@ a {
 .bringbg p,
 .qrcode p,
 .cryptohero h6,
-.tradecrypto p {
+.tradecrypto p,
+.investcurrency p {
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -1652,13 +1679,15 @@ a {
   padding: 150px 20px;
 }
 
-.tradecrypto h6 {
+.tradecrypto h6,
+.investcurrency h2 {
   font-size: 14px;
   line-height: 13px;
   font-weight: 400;
 }
 
-.tradecrypto h2 {
+.tradecrypto h2,
+.investcurrency h2 {
   font-size: 40px;
   line-height: 40px;
   font-weight: 400;
@@ -1672,4 +1701,17 @@ a {
 
 .csave {
   background-image: url("./assets/csave.svg")!important;
+}
+
+.investcurrency {
+  background-image: url("./assets/invest.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 20px;
+}
+
+.tr {
+  background-image: url("./assets/transact.svg")!important;
+  padding: 150px 20px!important;
 }

@@ -13,7 +13,7 @@ function SolutionDrop(params) {
             <li><Link to="/wealth-management">Wealth management</Link></li>
             <li><Link to="/cross-border">Cross-border payment</Link></li>
             <li><Link to="/payment-gateway">Payment gateway </Link></li>
-            <li><Link to="/cryptocurrency">Cryptocurrency & foreign exchange trading </Link></li>
+            <li><Link to="/cryptocurrency">Cryptocurrency </Link></li>
             <li><Link>Microfinance  </Link></li>
             <li><Link>Mobile money  </Link></li>
             <li><Link>Lending  </Link></li>
@@ -22,15 +22,15 @@ function SolutionDrop(params) {
         <div className='col-sm-3 mb-2'>
           <h4>Business</h4>
           <ul className="list-unstyled links">
-            <li><Link>Financial management software</Link></li>
+            <li><Link>Custom made  </Link></li>
             <li><Link>Payment gateway </Link></li>
             <li><Link>Cross-border payment </Link></li>
-            <li><Link>Cryptocurrency & foreign exchange trading </Link></li>
+            <li><Link>Cryptocurrency </Link></li>
             <li><Link>Microfinance  </Link></li>
             <li><Link>Open banking   </Link></li>
             <li><Link>Wealth management  </Link></li>
             <li><Link>Custom made  </Link></li>
-            <li><Link>Bookkeeping & expense tracking services  </Link></li>
+            <li><Link>Book keeping & expense tracking  </Link></li>
           </ul>
         </div>
         <div className='col-sm-3 mb-2'>
@@ -38,8 +38,8 @@ function SolutionDrop(params) {
           <ul className="list-unstyled links">
             <li><Link>Cross-border payment</Link></li>
             <li><Link>Custom made </Link></li>
-            <li><Link>Lending solutions </Link></li>
             <li><Link>Remittance</Link></li>
+            <li><Link>Lending</Link></li>
           </ul>
         </div>
         <div className='col-sm-3 mb-2'>
