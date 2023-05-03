@@ -126,8 +126,13 @@ a {
   background-color: #228922;
 }
 
+.crypto-header {
+  background-color: #01183b;
+}
+
 .ardilla-header .nav-link,
-.hargon-header .nav-link {
+.hargon-header .nav-link,
+.crypto-header .nav-link {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
@@ -135,7 +140,8 @@ a {
 }
 
 .ardilla-header .nav-link:hover,
-.hargon-header .nav-link:hover {
+.hargon-header .nav-link:hover,
+.crypto-header .nav-link:hover {
   color: #f9f9f9;
   font-size: 14px;
   font-weight: 500;
@@ -159,7 +165,8 @@ a {
 @media (min-width: 992px){
   .header .nav-link,
   .ardilla-header .nav-link,
-  .hargon-header .nav-link  {
+  .hargon-header .nav-link,
+  .crypto-header .nav-link  {
     margin-left: 40px;
   }
 }
@@ -1570,7 +1577,8 @@ a {
 .paymentrest p,
 .pomelobg h6,
 .bringbg p,
-.qrcode p {
+.qrcode p,
+.cryptohero h6 {
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -1625,4 +1633,12 @@ a {
 
 .pomelowallet {
   padding: 100px 20px;
+}
+
+.cryptohero {
+  background-image: url("./assets/crypto.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
 }
