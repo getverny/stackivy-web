@@ -1,6 +1,5 @@
 import pom from "../assets/pom-title.svg";
 import mouse from "../assets/mouse.svg";
-import { Link } from "react-router-dom";
 
 
 function PomeloHero() {
@@ -18,7 +17,7 @@ function PomeloHero() {
               Get started
             </a>
             <div className="mt-5 animate__animated animate__pulse animate__infinite">
-              <Link><img src={mouse} alt="mouse" className="img-fluid" /></Link>
+              <a href="#startbuilding"><img src={mouse} alt="mouse" className="img-fluid" /></a>
             </div>
           </div>
         </div>
