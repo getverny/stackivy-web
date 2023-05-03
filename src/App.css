@@ -1558,7 +1558,8 @@ a {
 }
 
 .domore h2,
-.paymentrest h2 {
+.paymentrest h2,
+.qrcode h3 {
   font-size: 65px;
   line-height: 69px;
   font-weight: 400;
@@ -1567,7 +1568,9 @@ a {
 
 .domore p,
 .paymentrest p,
-.pomelobg h6 {
+.pomelobg h6,
+.bringbg p,
+.qrcode p {
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -1591,4 +1594,35 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.varietyb {
+  padding: 90px 20px;
+  background-color: #fff;
+}
+
+.bringbg {
+  padding: 70px 20px;
+  background-image: url("./assets/bringbg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.qrcode h6 {
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.createstore {
+  background: linear-gradient(180deg, rgba(0, 134, 87, 0.1) 0%, rgba(255, 230, 0, 0.1) 100%);
+  padding: 100px 20px;
+}
+
+.pomelowallet {
+  padding: 100px 20px;
 }
