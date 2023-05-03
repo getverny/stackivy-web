@@ -1566,7 +1566,8 @@ a {
 }
 
 .domore p,
-.paymentrest p {
+.paymentrest p,
+.pomelobg h6 {
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -1582,4 +1583,12 @@ a {
 .paymentrest {
   padding: 150px 20px;
   background-color: #fff;
+}
+
+.pomelobg {
+  padding: 220px 20px;
+  background-image: url("./assets/pomelo-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
