@@ -15,6 +15,7 @@ import FinancialEducation from './pages/financialEducation';
 import Wealth from './pages/wealthManagement';
 import CrossBorder from './pages/crossBorderPayment';
 import Pomelo from './pages/pomelo';
+import Crypto from './pages/crypto';
 
 
 
@@ -35,6 +36,7 @@ root.render(
         <Route path="/wealth-management" element={<Wealth/>}></Route>
         <Route path="/cross-border" element={<CrossBorder/>}></Route>
         <Route path="/payment-gateway" element={<Pomelo/>}></Route>
+        <Route path="/cryptocurrency" element={<Crypto/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>
