@@ -27,9 +27,9 @@ import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 
 
-function CBHeader () {
+function PomeloHeader () {
   return (
-    <Navbar expand="lg" className='py-3 header sticky-top' style={{background: "#FFFEF3"}}>
+    <Navbar expand="lg" className='py-3 header sticky-top pom-header'>
       <Container>
         <Navbar.Brand href="/"><img src={logo} alt="stackivy" className='img-fluid' /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -264,4 +264,4 @@ function CBHeader () {
 }
 
 
-export default CBHeader
+export default PomeloHeader

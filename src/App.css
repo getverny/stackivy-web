@@ -1544,3 +1544,7 @@ a {
   -webkit-background-clip: text!important;
   font-family: mag;
 }
+
+.pom-header {
+  background: #f9fcf3;
+}

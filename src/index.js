@@ -13,6 +13,7 @@ import Budgeting from './pages/budgeting';
 import FinancialEducation from './pages/financialEducation';
 import Wealth from './pages/wealthManagement';
 import CrossBorder from './pages/crossBorderPayment';
+import Pomelo from './pages/pomelo';
 
 
 
@@ -32,6 +33,7 @@ root.render(
         <Route path="/financial-education" element={<FinancialEducation/>}></Route>
         <Route path="/wealth-management" element={<Wealth/>}></Route>
         <Route path="/cross-border" element={<CrossBorder/>}></Route>
+        <Route path="/pomelo" element={<Pomelo/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>
