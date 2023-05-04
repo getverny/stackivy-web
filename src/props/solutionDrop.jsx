@@ -14,7 +14,7 @@ function SolutionDrop(params) {
             <li><Link to="/cross-border">Cross-border payment</Link></li>
             <li><Link to="/payment-gateway">Payment gateway </Link></li>
             <li><Link to="/cryptocurrency">Cryptocurrency </Link></li>
-            <li><Link>Microfinance  </Link></li>
+            <li><Link to="/microfinance">Microfinance  </Link></li>
             <li><Link>Mobile money  </Link></li>
             <li><Link>Lending  </Link></li>
           </ul>

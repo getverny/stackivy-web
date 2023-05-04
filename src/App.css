@@ -1715,3 +1715,15 @@ a {
   background-image: url("./assets/transact.svg")!important;
   padding: 150px 20px!important;
 }
+
+.microhero {
+  padding: 150px 20px;
+  background-color: #fff;
+}
+
+.microhero h6 {
+  color: #1E2C31;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
