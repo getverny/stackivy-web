@@ -17,6 +17,8 @@ import CrossBorder from './pages/crossBorderPayment';
 import Pomelo from './pages/pomelo';
 import Crypto from './pages/crypto';
 import MicroFinance from './pages/microFinance';
+import MobileMoney from './pages/mobilemoney';
+import Lending from './pages/lending';
 
 
 
@@ -39,6 +41,8 @@ root.render(
         <Route path="/payment-gateway" element={<Pomelo/>}></Route>
         <Route path="/cryptocurrency" element={<Crypto/>}></Route>
         <Route path="/microfinance" element={<MicroFinance/>}></Route>
+        <Route path="/mobile-money" element={<MobileMoney/>}></Route>
+        <Route path="/lending" element={<Lending/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>

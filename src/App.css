@@ -844,7 +844,8 @@ a {
 .info h2,
 .wealthhero h2,
 .befree h2,
-.zc h4 {
+.zc h4,
+.send-money h2 {
   font-size: 65px;
   line-height: 69px;
   font-weight: 400;
@@ -1205,6 +1206,13 @@ a {
   border: 0;
   -webkit-text-fill-color: transparent;
   background: linear-gradient(90.23deg, #FFDA6D 6.23%, #D7DBFF 45.76%, #47AA8B 101.44%)!important;
+  -webkit-background-clip: text!important;
+}
+
+.mobileinfo .nav-tabs .nav-link.active {
+  border: 0;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90.23deg, #000 6.23%, #000 45.76%, #000 101.44%)!important;
   -webkit-background-clip: text!important;
 }
 
@@ -1724,7 +1732,9 @@ a {
 
 .microhero h6,
 .it p,
-.zc p {
+.zc p,
+.link-money p,
+.send-money p {
   color: #1E2C31;
   font-size: 12px;
   line-height: 20px;
@@ -1788,4 +1798,38 @@ a {
   background-repeat: no-repeat!important;
   background-size: cover!important;
   padding: 100px 20px 0px 20px!important;
+}
+
+.link-money {
+  background-image: url("./assets/background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 20px;
+}
+
+.link-money h2 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 64px;
+  font-family: mag;
+}
+
+.send-money {
+  padding: 150px 20px;
+  background-color: #fff;
+}
+
+.mobile-hero {
+  background-image: url("./assets/black.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+
+.mobile-hero h6 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
 }
