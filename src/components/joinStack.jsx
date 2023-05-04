@@ -23,7 +23,7 @@ function JoinStack() {
             </div>
           </div>
           <div className="col-sm-4 text-center">
-            <div className="stack-card pr">
+            <div className="stack-card cta">
               <h3 className="text-white">Custom Tailored applications based on your industry</h3>
             </div>
           </div>
