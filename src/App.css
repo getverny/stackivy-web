@@ -843,7 +843,8 @@ a {
 .hargon-market h2,
 .info h2,
 .wealthhero h2,
-.befree h2 {
+.befree h2,
+.zc h4 {
   font-size: 65px;
   line-height: 69px;
   font-weight: 400;
@@ -1721,9 +1722,70 @@ a {
   background-color: #fff;
 }
 
-.microhero h6 {
+.microhero h6,
+.it p,
+.zc p {
   color: #1E2C31;
   font-size: 12px;
   line-height: 20px;
   font-weight: 400;
+}
+
+.instanttransfer {
+  padding: 0px 20px 90px 20px;
+}
+
+.it {
+  background-image: url("./assets/it.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 50px;
+  border-radius: 20px;
+}
+
+.zc {
+  background-image: url("./assets/zc.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 40px;
+  min-height: 600px;
+}
+
+.orange {
+  background-image: url("./assets/oranj.svg")!important
+}
+
+.morereach {
+  background-image: url("./assets/mrbg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 20px 100px 20px;
+}
+
+@media (min-width: 992px){
+  .mr-top {
+    margin-top: 300px;
+  }
+}
+
+.morereach p {
+  color: #1E2C31;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.sync {
+  padding: 100px 20px!important;
+}
+
+.can-acc {
+  background-image: url("./assets/plane.svg")!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  padding: 100px 20px 0px 20px!important;
 }
