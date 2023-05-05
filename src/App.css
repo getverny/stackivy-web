@@ -1443,7 +1443,6 @@ a {
   animation: show 9s linear infinite;
 }
 
-
 @keyframes show {
   0% {margin-top:-270px;}
   5% {margin-top:-180px;}
