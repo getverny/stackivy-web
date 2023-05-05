@@ -9,7 +9,6 @@ import PomeloHeader from "../components/pomeloHeader";
 import PomeloHero from "../components/pomeloHero";
 import PomeloWallet from "../components/pomeloWallet";
 
-
 function Pomelo() {
   return (
     <div>
