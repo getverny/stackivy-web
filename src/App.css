@@ -1601,7 +1601,11 @@ a {
 
 .domore h2,
 .paymentrest h2,
-.qrcode h3 {
+.qrcode h3,
+.lending-hero h2,
+.left-side h2,
+.paylater h2,
+.employeeloan h2 {
   font-size: 65px;
   line-height: 69px;
   font-weight: 400;
@@ -1615,7 +1619,10 @@ a {
 .qrcode p,
 .cryptohero h6,
 .tradecrypto p,
-.investcurrency p {
+.investcurrency p,
+.left-side h6,
+.paylater p,
+.employeeloan p {
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -1828,8 +1835,64 @@ a {
   padding: 200px 20px;
 }
 
-.mobile-hero h6 {
+.mobile-hero h6,
+.lending-hero h6,
+.paylater h6,
+.quickloan h6 {
   font-size: 14px;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 25px;
+}
+
+.lending-hero {
+  padding: 220px 20px;
+  background-image: url("./assets/backhero.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cred {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #2563EB 4.78%, #35FF49 97.92%)!important;
+  -webkit-background-clip: text!important;
+}
+
+.paylater {
+  padding: 100px 20px;
+}
+
+.quickloan {
+  background: linear-gradient(180deg, #F0FDF4 0%, rgba(240, 253, 244, 0) 106.08%);
+  padding: 100px 20px;
+}
+
+.left-side {
+  background-image: url("./assets/BACK.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+
+.right-side {
+  background-image: url("./assets/babe.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px 20px;
+}
+
+.cap {
+  background: linear-gradient(117.04deg, #2563EB -13.79%, #35FF49 131.52%);
+  border-radius: 20px;
+  padding: 50px 70px;
+}
+
+.employeeloan {
+  background-image: url("./assets/eback.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
 }
