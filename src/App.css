@@ -1621,7 +1621,8 @@ a {
 .investcurrency p,
 .left-side h6,
 .paylater p,
-.employeeloan p {
+.employeeloan p,
+.custom-hero h6 {
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -1895,3 +1896,16 @@ a {
   background-size: cover;
   padding: 150px 20px;
 }
+
+.custom-hero {
+  padding: 200px 20px;
+  background-color: #fff;
+}
+
+.custom-hero h2 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+  font-family: mag;
+}
+

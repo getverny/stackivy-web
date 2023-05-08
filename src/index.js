@@ -9,7 +9,6 @@ import reportWebVitals from './reportWebVitals';
 import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import Ardilla from './pages/ardilla';
 import Hargon from './pages/hargon';
-import ScrollToTop from './scrollToTop';
 import Budgeting from './pages/budgeting';
 import FinancialEducation from './pages/financialEducation';
 import Wealth from './pages/wealthManagement';
@@ -19,6 +18,9 @@ import Crypto from './pages/crypto';
 import MicroFinance from './pages/microFinance';
 import MobileMoney from './pages/mobilemoney';
 import Lending from './pages/lending';
+import ScrollToTop from './scrollToTop';
+import CustomMade from './pages/custom';
+// import ScrollToTop from 'scroll-to-top-react-router'
 
 
 
@@ -29,7 +31,7 @@ root.render(
     minBreakpoint="xxs"
   >
     <BrowserRouter>
-      <ScrollToTop/>
+    <ScrollToTop/>
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/ardilla" element={<Ardilla/>}></Route>
@@ -43,6 +45,7 @@ root.render(
         <Route path="/microfinance" element={<MicroFinance/>}></Route>
         <Route path="/mobile-money" element={<MobileMoney/>}></Route>
         <Route path="/lending" element={<Lending/>}></Route>
+        <Route path="/custom-made" element={<CustomMade/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>
