@@ -1,6 +1,5 @@
 import wealth from "../assets/bookhero.png";
 import icon from "../assets/icon.svg";
-
 function BookHero() {
   return (
     <section className="bookhero">
