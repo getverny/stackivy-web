@@ -27,7 +27,7 @@ function SolutionDrop(params) {
             <li><Link>Cross-border payment </Link></li>
             <li><Link>Cryptocurrency </Link></li>
             <li><Link>Microfinance  </Link></li>
-            <li><Link>Open banking   </Link></li>
+            <li><Link to="/open-banking">Open banking   </Link></li>
             <li><Link>Wealth management  </Link></li>
             {/* <li><Link>Custom made  </Link></li> */}
             <li><Link to="/book-keeping">Book keeping & expense tracking  </Link></li>

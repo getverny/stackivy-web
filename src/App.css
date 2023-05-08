@@ -1155,7 +1155,7 @@ a {
 
 .benefits p {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 28px;
   font-weight: 400;
   color: #fff;
 }
@@ -1165,6 +1165,10 @@ a {
   margin: 0px 40px;
 }
 
+.auto-cards {
+  padding: 50px;
+}
+
 .benefit-cards:hover {
   padding: 50px;
   background: linear-gradient(124.78deg, #2563EB -19.18%, #35FF49 140.85%);
@@ -1172,7 +1176,15 @@ a {
   cursor: pointer;
 }
 
-.benefit-cards h4 {
+.auto-cards:hover {
+  padding: 50px;
+  background: #FFA000;
+  border-radius: 15.5885px;
+  cursor: pointer;
+}
+
+.benefit-cards h4,
+.auto-cards h4 {
   font-size: 12px;
   line-height: 18px;
   font-weight: 500;
@@ -1627,7 +1639,8 @@ a {
 .paylater p,
 .employeeloan p,
 .custom-hero h6,
-.custombg h6 {
+.custombg h6,
+.bookhero p {
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -1947,4 +1960,17 @@ a {
   font-weight: 500;
   line-height: 28px;
   color: #000000;
+}
+
+.bookhero {
+  background-color: #FFF9EE;
+  padding: 180px 0px
+}
+
+.bookhero h2 {
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 70px;
+  font-family: mag;
+  color: #000;
 }

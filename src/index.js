@@ -21,6 +21,7 @@ import Lending from './pages/lending';
 import ScrollToTop from './scrollToTop';
 import CustomMade from './pages/custom';
 import BookKeep from './pages/bookKeeping';
+import OpenBanking from './pages/openBanking';
 // import ScrollToTop from 'scroll-to-top-react-router'
 
 
@@ -48,6 +49,7 @@ root.render(
         <Route path="/lending" element={<Lending/>}></Route>
         <Route path="/custom-made" element={<CustomMade/>}></Route>
         <Route path="/book-keeping" element={<BookKeep/>}></Route>
+        <Route path="/open-banking" element={<OpenBanking/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>

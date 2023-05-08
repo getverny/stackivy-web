@@ -1,4 +1,6 @@
+import AutomatedBK from "../components/automatedBk";
 import BookHeader from "../components/bookHeader";
+import BookHero from "../components/bookHero";
 import BookInfo from "../components/bookInfo";
 import Expense from "../components/expenseTracking";
 import NoTop from "../components/footerwithoutTop";
@@ -11,6 +13,8 @@ function BookKeep() {
   return (
     <div>
       <BookHeader/>
+      <BookHero/>
+      <AutomatedBK/>
       <Expense/>
       <Invoicing/>
       <TaxReport/>
