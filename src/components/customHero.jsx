@@ -8,7 +8,7 @@ function CustomHero() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-sm-9 text-center">
-            <h2>Custom Made <span className="all-in-one">Financial Management</span> Solutions for <span className="all-in-one">business</span></h2>
+            <h2 className="animate__animated animate__slideInDown animate__fast">Custom Made <span className="all-in-one">Financial Management</span> Solutions for <span className="all-in-one">business</span></h2>
             <h6 className="my-5">Unleash the power of custom-tailored financial solutions for your business. With Onescurd's financial management solutions and strategies, you can take your company's finances to the next level. Our solutions are unique to your business needs.</h6>
             <button
               className="btn btn-primary btn-green rounded-pill px-5 py-4"

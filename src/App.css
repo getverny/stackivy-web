@@ -126,6 +126,10 @@ a {
   background-color: #228922;
 }
 
+.book-header {
+  background-color: #FFF9EE!important;
+}
+
 .crypto-header {
   background-color: #01183b;
 }

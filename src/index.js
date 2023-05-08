@@ -20,6 +20,7 @@ import MobileMoney from './pages/mobilemoney';
 import Lending from './pages/lending';
 import ScrollToTop from './scrollToTop';
 import CustomMade from './pages/custom';
+import BookKeep from './pages/bookKeeping';
 // import ScrollToTop from 'scroll-to-top-react-router'
 
 
@@ -46,6 +47,7 @@ root.render(
         <Route path="/mobile-money" element={<MobileMoney/>}></Route>
         <Route path="/lending" element={<Lending/>}></Route>
         <Route path="/custom-made" element={<CustomMade/>}></Route>
+        <Route path="/book-keeping" element={<BookKeep/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>

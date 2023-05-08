@@ -29,8 +29,8 @@ function SolutionDrop(params) {
             <li><Link>Microfinance  </Link></li>
             <li><Link>Open banking   </Link></li>
             <li><Link>Wealth management  </Link></li>
-            <li><Link>Custom made  </Link></li>
-            <li><Link>Book keeping & expense tracking  </Link></li>
+            {/* <li><Link>Custom made  </Link></li> */}
+            <li><Link to="/book-keeping">Book keeping & expense tracking  </Link></li>
           </ul>
         </div>
         <div className='col-sm-3 mb-2'>

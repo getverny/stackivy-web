@@ -1,4 +1,5 @@
 import box from "../assets/transf.svg";
+import receive from "../assets/receive.png";
 
 function SendMoney() {
   return (
@@ -25,7 +26,7 @@ function SendMoney() {
         </div>
         <div className="row justify-content-center mt-9">
           <div className="col-sm-10 text-center">
-            <img src={box} alt="transfer-successful" className="img-fluid" />
+            <img src={receive} alt="transfer-successful" className="img-fluid" />
           </div>
         </div>
       </div>
