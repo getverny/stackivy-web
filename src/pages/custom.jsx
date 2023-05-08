@@ -1,4 +1,5 @@
 
+import Automated from "../components/automated";
 import CustomHero from "../components/customHero";
 import CustomBg from "../components/custombg";
 import Footer from "../components/footer";
@@ -16,6 +17,7 @@ function CustomMade() {
       <ManageFinance/>
       <CustomBg/>
       <Strategy/>
+      <Automated/>
       <MobileInfo/>
       <Footer/>
     </div>

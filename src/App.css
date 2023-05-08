@@ -1924,3 +1924,23 @@ a {
   line-height: 80px;
   font-family: mag;
 }
+
+.automated {
+  background: linear-gradient(181.57deg, rgba(194, 230, 242, 0.82) -3.2%, rgba(240, 236, 206, 0.42) 34.77%, #FFFFFF 83.4%);
+  border-radius: 8px;
+  padding: 200px 20px;
+}
+
+.automated h2 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 53px;
+  font-family: mag;
+}
+
+.automated h6 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #000000;
+}
