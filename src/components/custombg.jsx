@@ -1,18 +1,13 @@
 
-import manage from "../assets/myf.svg";
-
 
 function CustomBg() {
   return (
     <section className="custombg">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-sm-6 mb-3 mt-9">
-            <h2>Manage your<br/><span className="all-in-one">financial system.</span></h2>
-            <h6 className="my-5">Manage your financial system with ease on Stackivy's Onescurd. Get great insights and financial tips to help navigate and control your company's finances.</h6>
-          </div>
-          <div className="col-sm-6">
-            <img src={manage} alt="manage your finance" className="img-fluid w-100" />
+          <div className="col-sm-9 text-center">
+            <h2 className="text-white">Custom order financial solutions for your business</h2>
+            <h6 className="text-white mt-4">Custom order different financial tools in a unique financial solution for your business. Our financial solutions come<br/>with bookkeeping, investment tracking, lending, and many other financial tools that help grow your business.</h6>
           </div>
         </div>
       </div>

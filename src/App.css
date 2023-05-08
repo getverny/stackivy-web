@@ -1622,7 +1622,8 @@ a {
 .left-side h6,
 .paylater p,
 .employeeloan p,
-.custom-hero h6 {
+.custom-hero h6,
+.custombg h6 {
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -1909,3 +1910,17 @@ a {
   font-family: mag;
 }
 
+.custombg {
+  background-image: url("./assets/custombg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+
+.custombg h2 {
+  font-size: 69px;
+  font-weight: 400;
+  line-height: 80px;
+  font-family: mag;
+}
