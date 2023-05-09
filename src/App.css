@@ -1652,7 +1652,10 @@ a {
 .bookhero p,
 .openhero p,
 .access p,
-.spaycemoon p {
+.spaycemoon p,
+.track-control p,
+.fin-ard p,
+.health-hero h6 {
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -1996,7 +1999,9 @@ a {
 }
 
 .openhero h2,
-.access h2 {
+.access h2,
+.healthcarebusiness h2,
+.track-control h2 {
   font-size: 60px;
   font-weight: 400;
   line-height: 70px;
@@ -2051,4 +2056,49 @@ a {
   font-weight: 400;
   line-height: 17px;
   color: #fff;
+}
+
+.fin-ard h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #000;
+}
+
+.healthcarebusiness {
+  background-color: #FCFCFC;
+  padding: 60px 0px 140px 0px;
+}
+
+.track-control {
+  background-image: url("./assets/onw.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 20px;
+}
+
+.fin-ard {
+  background-color: #FCFCFC;
+  padding: 100px 20px;
+}
+
+.fin-ard-top {
+  margin-top: 200px;
+}
+
+.health-hero {
+  background-image: url("./assets/doc.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+
+.health-hero h2 {
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 90px;
+  font-family: mag;
+  color: #000;
 }

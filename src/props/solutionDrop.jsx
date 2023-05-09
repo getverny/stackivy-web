@@ -46,7 +46,7 @@ function SolutionDrop(params) {
           <h4>Industries</h4>
           <ul className="list-unstyled links">
             <li><Link>E-commerce</Link></li>
-            <li><Link>Healthcare </Link></li>
+            <li><Link to="/healthcare">Healthcare </Link></li>
             <li><Link>Food </Link></li>
             <li><Link>Education</Link></li>
             <li><Link>Human Resources</Link></li>
