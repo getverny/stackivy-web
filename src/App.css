@@ -252,7 +252,7 @@ a {
 }
 
 .mt-9 {
-  margin-top: 90px;
+  margin-top: 100px;
 }
 
 .mt-6 {
@@ -1218,6 +1218,13 @@ a {
   -webkit-background-clip: text!important;
 }
 
+.space-info .nav-tabs .nav-link.active {
+  border: 0;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90.23deg, #245FE0 6.23%, #245FE0 45.76%, #245FE0 101.44%)!important;
+  -webkit-background-clip: text!important;
+}
+
 .black-info .nav-tabs .nav-link.active {
   border: 0;
   -webkit-text-fill-color: transparent;
@@ -1256,14 +1263,16 @@ a {
   font-weight: 500;
 }
 
-.black-info .form-label {
+.black-info .form-label,
+.space-info .form-label {
   color: #fff;
   font-size: 15px;
   line-height: 24px;
   font-weight: 500;
 }
 
-.black-info .form-control {
+.black-info .form-control,
+.space-info .form-control {
   border: 1px solid #9CA3AF;
   padding: 11px 20px;
   border-radius: 0px;
@@ -1640,7 +1649,10 @@ a {
 .employeeloan p,
 .custom-hero h6,
 .custombg h6,
-.bookhero p {
+.bookhero p,
+.openhero p,
+.access p,
+.spaycemoon p {
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -1973,4 +1985,70 @@ a {
   line-height: 70px;
   font-family: mag;
   color: #000;
+}
+
+.openhero {
+  background-image: url("./assets/spayce.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+
+.openhero h2,
+.access h2 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+  font-family: mag;
+  color: #000;
+}
+
+.topspace {
+  margin-top: 200px;
+}
+
+.access {
+  background-image: url("./assets/back.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 20px;
+}
+
+.documentation {
+  background-image: url("./assets/background.png")!important;
+  padding: 200px 20px!important;
+}
+
+.spaycemoon {
+  background-image: url("./assets/spaycemoon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 20px;
+}
+
+.do-more {
+  padding: 30px 40px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0.15) 100%);
+  backdrop-filter: blur(37.4599px);
+  border-radius: 14.984px;
+  border: 1px solid #245FE0;
+  min-height: 267px;
+}
+
+.do-more h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.do-more h6 {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #fff;
 }
