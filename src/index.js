@@ -23,6 +23,7 @@ import CustomMade from './pages/custom';
 import BookKeep from './pages/bookKeeping';
 import OpenBanking from './pages/openBanking';
 import HealthCare from './pages/healthCare';
+import Ecommerce from './pages/ecommerce';
 // import ScrollToTop from 'scroll-to-top-react-router'
 
 
@@ -52,6 +53,7 @@ root.render(
         <Route path="/book-keeping" element={<BookKeep/>}></Route>
         <Route path="/open-banking" element={<OpenBanking/>}></Route>
         <Route path="/healthcare" element={<HealthCare/>}></Route>
+        <Route path="/ecommerce" element={<Ecommerce/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>

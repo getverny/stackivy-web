@@ -45,7 +45,7 @@ function SolutionDrop(params) {
         <div className='col-sm-3 mb-2'>
           <h4>Industries</h4>
           <ul className="list-unstyled links">
-            <li><Link>E-commerce</Link></li>
+            <li><Link to="/ecommerce">E-commerce</Link></li>
             <li><Link to="/healthcare">Healthcare </Link></li>
             <li><Link>Food </Link></li>
             <li><Link>Education</Link></li>

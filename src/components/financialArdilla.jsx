@@ -1,5 +1,6 @@
 import title from "../assets/financial.svg";
 import fmr from "../assets/fmr.svg";
+import tc from "../assets/tc.svg";
 
 
 function FinancialArdilla() {
@@ -23,7 +24,7 @@ function FinancialArdilla() {
         </div>
         <div className="row justify-content-between toppings">
           <div className="col-sm-5">
-            <img src={fmr} alt="fmr" className="img-fluid w-100" />
+            <img src={tc} alt="fmr" className="img-fluid w-100" />
           </div>
           <div className="col-sm-5 fin-ard-top">
             <h3>Track and Control your company’s investments in one platform.</h3>
