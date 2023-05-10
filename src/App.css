@@ -1636,6 +1636,7 @@ a {
   font-family: mag;
 }
 
+.education-hero h6,
 .domore p,
 .paymentrest p,
 .pomelobg h6,
@@ -1660,8 +1661,11 @@ a {
 .simplified h6,
 .buildintegrate h6,
 .paytrack h6,
-.youronescud p {
-  font-size: 14px;
+.youronescud p,
+.exposing h6,
+.intmoney p,
+.fincourse h6 {
+  font-size: 13px;
   line-height: 28px;
   font-weight: 500;
   color: #000;
@@ -2102,7 +2106,9 @@ a {
 
 .health-hero h2,
 .ecoommerce-hero h2,
-.paytrack h2 {
+.paytrack h2,
+.education-hero h2,
+.intmoney h2 {
   font-size: 70px;
   font-weight: 400;
   line-height: 80px;
@@ -2150,4 +2156,41 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 150px 0px;
+}
+
+.education-hero {
+  padding: 200px 20px;
+  background-color: #fff;
+}
+
+.exposing {
+  background-image: url("./assets/expose.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 20px 588px 20px;
+}
+
+.intmoney {
+  background-image: url("./assets/intbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0px;
+}
+
+.fincourse {
+  background-image: url("./assets/blue.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0px;
+}
+
+.fincourse h2 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 65px;
+  font-family: mag;
+  color: #000;
 }

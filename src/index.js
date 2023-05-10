@@ -24,6 +24,7 @@ import BookKeep from './pages/bookKeeping';
 import OpenBanking from './pages/openBanking';
 import HealthCare from './pages/healthCare';
 import Ecommerce from './pages/ecommerce';
+import Education from './pages/education';
 // import ScrollToTop from 'scroll-to-top-react-router'
 
 
@@ -54,6 +55,7 @@ root.render(
         <Route path="/open-banking" element={<OpenBanking/>}></Route>
         <Route path="/healthcare" element={<HealthCare/>}></Route>
         <Route path="/ecommerce" element={<Ecommerce/>}></Route>
+        <Route path="/education" element={<Education/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>

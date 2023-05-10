@@ -48,7 +48,7 @@ function SolutionDrop(params) {
             <li><Link to="/ecommerce">E-commerce</Link></li>
             <li><Link to="/healthcare">Healthcare </Link></li>
             <li><Link>Food </Link></li>
-            <li><Link>Education</Link></li>
+            <li><Link to="/education">Education</Link></li>
             <li><Link>Human Resources</Link></li>
             <li><Link>Logistics & Trasnsportation</Link></li>
           </ul>
