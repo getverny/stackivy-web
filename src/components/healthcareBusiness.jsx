@@ -11,7 +11,7 @@ function HealthcareBusiness() {
             <h2>Need <span style={{color: "#17A9A9"}}>custom financial solutions</span> for your healthcare business?</h2>
             <p className="my-5">Every healthcare business has its unique attributes. You can get custom solutions tailored to your unique financial challenges.</p>
             <a
-              className="btn btn-primary btn-fff rounded-pill px-5 py-4"
+              className="btn btn-primary btn-000 rounded-pill px-5 py-4"
               href="#startbuilding" style={{background: '#17A8A8', color: "#fff"}}
             >
               Get your custom application

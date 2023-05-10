@@ -82,9 +82,9 @@ a {
   border: #fff;
   color: #fff;
   font-size: 14px;
-  padding-left: 90px!important;
+  padding-left: 70px!important;
   font-weight: 500;
-  padding-right: 90px!important;
+  padding-right: 70px!important;
 }
 
 .btn-grad {
@@ -1655,7 +1655,12 @@ a {
 .spaycemoon p,
 .track-control p,
 .fin-ard p,
-.health-hero h6 {
+.health-hero h6,
+.ecoommerce-hero h6,
+.simplified h6,
+.buildintegrate h6,
+.paytrack h6,
+.youronescud p {
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -2095,10 +2100,54 @@ a {
   padding: 200px 20px;
 }
 
-.health-hero h2 {
-  font-size: 80px;
+.health-hero h2,
+.ecoommerce-hero h2,
+.paytrack h2 {
+  font-size: 70px;
   font-weight: 400;
-  line-height: 90px;
+  line-height: 80px;
   font-family: mag;
   color: #000;
+}
+
+.ecoommerce-hero {
+  background-color: #fff;
+  padding: 200px 20px;
+}
+
+.simplified {
+  padding: 150px 20px;
+  background: linear-gradient(117.04deg, rgba(37, 99, 235, 0.1) -13.79%, rgba(53, 255, 73, 0.1) 131.52%);
+}
+
+.bankdiff {
+  background: #fff!important;
+}
+
+.zet {
+  background: linear-gradient(253.61deg, rgba(255, 218, 109, 0.1) 17.28%, rgba(215, 219, 255, 0.1) 54.74%, rgba(178, 122, 9, 0.1) 100.97%)!important;
+}
+
+.buildintegrate {
+  background-image: url("./assets/buildspace.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+.paytrack {
+  background-image: url("./assets/trackonwa.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.youronescud {
+  background-image: url("./assets/onebg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0px;
 }

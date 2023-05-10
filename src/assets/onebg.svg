@@ -1,0 +1,91 @@
+<svg width="1440" height="856" viewBox="0 0 1440 856" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4210_32002)">
+<rect width="1447" height="856" fill="#101010"/>
+<g opacity="0.1">
+<ellipse cx="136.56" cy="670.278" rx="9.50378" ry="11.675" transform="rotate(-36.1332 136.56 670.278)" fill="url(#paint0_linear_4210_32002)"/>
+<ellipse cx="138.345" cy="669.491" rx="8.90739" ry="11.4352" transform="rotate(-36.1332 138.345 669.491)" fill="#30F6F6"/>
+<ellipse cx="138.342" cy="669.48" rx="2.6113" ry="3.35235" transform="rotate(-36.1332 138.342 669.48)" fill="#020D0D"/>
+</g>
+<g opacity="0.1">
+<ellipse cx="548.56" cy="579.278" rx="9.50378" ry="11.675" transform="rotate(-36.1332 548.56 579.278)" fill="url(#paint1_linear_4210_32002)"/>
+<ellipse cx="550.345" cy="578.491" rx="8.90739" ry="11.4352" transform="rotate(-36.1332 550.345 578.491)" fill="#30F6F6"/>
+<ellipse cx="550.342" cy="578.48" rx="2.6113" ry="3.35235" transform="rotate(-36.1332 550.342 578.48)" fill="#020D0D"/>
+</g>
+<g opacity="0.1">
+<ellipse cx="139.56" cy="139.278" rx="9.50378" ry="11.675" transform="rotate(-36.1332 139.56 139.278)" fill="url(#paint2_linear_4210_32002)"/>
+<ellipse cx="141.345" cy="138.491" rx="8.90739" ry="11.4352" transform="rotate(-36.1332 141.345 138.491)" fill="#30F6F6"/>
+<ellipse cx="141.342" cy="138.48" rx="2.6113" ry="3.35235" transform="rotate(-36.1332 141.342 138.48)" fill="#020D0D"/>
+</g>
+<g opacity="0.1">
+<ellipse cx="531.56" cy="154.278" rx="9.50378" ry="11.675" transform="rotate(-36.1332 531.56 154.278)" fill="url(#paint3_linear_4210_32002)"/>
+<ellipse cx="533.345" cy="153.491" rx="8.90739" ry="11.4352" transform="rotate(-36.1332 533.345 153.491)" fill="#30F6F6"/>
+<ellipse cx="533.342" cy="153.48" rx="2.6113" ry="3.35235" transform="rotate(-36.1332 533.342 153.48)" fill="#020D0D"/>
+</g>
+<g opacity="0.1">
+<ellipse cx="647.56" cy="359.278" rx="9.50378" ry="11.675" transform="rotate(-36.1332 647.56 359.278)" fill="url(#paint4_linear_4210_32002)"/>
+<ellipse cx="649.345" cy="358.491" rx="8.90739" ry="11.4352" transform="rotate(-36.1332 649.345 358.491)" fill="#30F6F6"/>
+<ellipse cx="649.342" cy="358.48" rx="2.6113" ry="3.35235" transform="rotate(-36.1332 649.342 358.48)" fill="#020D0D"/>
+</g>
+<g opacity="0.1">
+<ellipse cx="886.56" cy="785.271" rx="9.50378" ry="11.675" transform="rotate(-36.1332 886.56 785.271)" fill="url(#paint5_linear_4210_32002)"/>
+<ellipse cx="888.345" cy="784.491" rx="8.90739" ry="11.4352" transform="rotate(-36.1332 888.345 784.491)" fill="#30F6F6"/>
+<ellipse cx="888.342" cy="784.48" rx="2.6113" ry="3.35235" transform="rotate(-36.1332 888.342 784.48)" fill="#020D0D"/>
+</g>
+<g opacity="0.1">
+<ellipse cx="1209.56" cy="789.271" rx="9.50378" ry="11.675" transform="rotate(-36.1332 1209.56 789.271)" fill="url(#paint6_linear_4210_32002)"/>
+<ellipse cx="1211.35" cy="788.491" rx="8.90739" ry="11.4352" transform="rotate(-36.1332 1211.35 788.491)" fill="#30F6F6"/>
+<ellipse cx="1211.34" cy="788.48" rx="2.6113" ry="3.35235" transform="rotate(-36.1332 1211.34 788.48)" fill="#020D0D"/>
+</g>
+<g opacity="0.1">
+<ellipse cx="1066.56" cy="56.2783" rx="9.50378" ry="11.675" transform="rotate(-36.1332 1066.56 56.2783)" fill="url(#paint7_linear_4210_32002)"/>
+<ellipse cx="1068.35" cy="55.491" rx="8.90739" ry="11.4352" transform="rotate(-36.1332 1068.35 55.491)" fill="#30F6F6"/>
+<ellipse cx="1068.34" cy="55.4802" rx="2.6113" ry="3.35235" transform="rotate(-36.1332 1068.34 55.4802)" fill="#020D0D"/>
+</g>
+<g opacity="0.1">
+<ellipse cx="344.56" cy="709.278" rx="9.50378" ry="11.675" transform="rotate(-36.1332 344.56 709.278)" fill="url(#paint8_linear_4210_32002)"/>
+<ellipse cx="346.345" cy="708.491" rx="8.90739" ry="11.4352" transform="rotate(-36.1332 346.345 708.491)" fill="#30F6F6"/>
+<ellipse cx="346.342" cy="708.48" rx="2.6113" ry="3.35235" transform="rotate(-36.1332 346.342 708.48)" fill="#020D0D"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_4210_32002" x1="130.825" y1="658.938" x2="138.098" y2="688.003" gradientUnits="userSpaceOnUse">
+<stop stop-color="#30F6F6"/>
+<stop offset="1" stop-color="#30F6F6" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_4210_32002" x1="542.825" y1="567.938" x2="550.098" y2="597.003" gradientUnits="userSpaceOnUse">
+<stop stop-color="#30F6F6"/>
+<stop offset="1" stop-color="#30F6F6" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_4210_32002" x1="133.825" y1="127.938" x2="141.098" y2="157.003" gradientUnits="userSpaceOnUse">
+<stop stop-color="#30F6F6"/>
+<stop offset="1" stop-color="#30F6F6" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint3_linear_4210_32002" x1="525.825" y1="142.938" x2="533.098" y2="172.003" gradientUnits="userSpaceOnUse">
+<stop stop-color="#30F6F6"/>
+<stop offset="1" stop-color="#30F6F6" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint4_linear_4210_32002" x1="641.825" y1="347.938" x2="649.098" y2="377.003" gradientUnits="userSpaceOnUse">
+<stop stop-color="#30F6F6"/>
+<stop offset="1" stop-color="#30F6F6" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint5_linear_4210_32002" x1="880.825" y1="773.931" x2="888.098" y2="802.996" gradientUnits="userSpaceOnUse">
+<stop stop-color="#30F6F6"/>
+<stop offset="1" stop-color="#30F6F6" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint6_linear_4210_32002" x1="1203.83" y1="777.931" x2="1211.1" y2="806.996" gradientUnits="userSpaceOnUse">
+<stop stop-color="#30F6F6"/>
+<stop offset="1" stop-color="#30F6F6" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint7_linear_4210_32002" x1="1060.83" y1="44.9384" x2="1068.1" y2="74.0034" gradientUnits="userSpaceOnUse">
+<stop stop-color="#30F6F6"/>
+<stop offset="1" stop-color="#30F6F6" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint8_linear_4210_32002" x1="338.825" y1="697.938" x2="346.098" y2="727.003" gradientUnits="userSpaceOnUse">
+<stop stop-color="#30F6F6"/>
+<stop offset="1" stop-color="#30F6F6" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_4210_32002">
+<rect width="1440" height="856" fill="white"/>
+</clipPath>
+</defs>
+</svg>
