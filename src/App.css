@@ -895,6 +895,12 @@ a {
   -webkit-background-clip: text!important;
 }
 
+.scur {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #30C7E9 4.78%, #76DB7C 97.92%)!important;
+  -webkit-background-clip: text!important;
+}
+
 
 .number-04 {
   background-image: url("./assets/01.svg");

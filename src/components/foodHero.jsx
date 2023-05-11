@@ -16,7 +16,7 @@ function FoodHero() {
               className="btn btn-primary btn-main rounded-pill px-5 py-4"
               to="" style={{background: "#FC6011"}}
             >
-              Start Learning
+              Get started
             </Link>
           </div>
           <div className="col-lg-5 offset-md-1 p-0">

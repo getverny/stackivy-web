@@ -16,7 +16,10 @@
 
 .mobilefood p,
 .foodcredit p,
-.foodhero p {
+.foodhero p,
+.credsalary p,
+.hr-card p,
+.hrhero p {
   font-size: 12px;
   font-weight: 500;
   line-height: 28px;
@@ -36,10 +39,83 @@
   background-color: #fff;
 }
 
-.foodhero h2 {
+.foodhero h2,
+.hr-card h3 {
   font-size: 65px;
   font-weight: 400;
   line-height: 75px;
   font-family: mag;
   color: #000;
+}
+
+.credsalary h2 {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 80px;
+  font-family: mag;
+  color: #000;
+}
+
+.credsalary {
+  padding: 150px 20px;
+  background-image: url("./assets/cred.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 992px){
+  .hr-card {
+    padding: 70px 90px;
+    min-height: 546px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .hr-card {
+    padding: 70px 30px;
+  }
+}
+
+.onscurd {
+  background-image: url("./assets/scurd.svg")!important;
+}
+
+.onscurd h4 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 80px;
+  color: #000;
+}
+
+@media (min-width: 992px){
+  .hrhero {
+    padding: 250px 20px 390px 20px;
+    background-image: url("./assets/hr-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 767.98px){
+  .hrhero {
+    padding: 250px 20px;
+    background-color: #fff;
+  }
+
+}
+
+.hrhero h2 {
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 80px;
+  font-family: mag;
+  color: #000;
+}
+
+@media (min-width: 992px){
+  .hhero {
+    margin-top: -100px;
+  }
 }
