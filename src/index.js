@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
+import './App.css';
 import 'animate.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -25,6 +26,8 @@ import OpenBanking from './pages/openBanking';
 import HealthCare from './pages/healthCare';
 import Ecommerce from './pages/ecommerce';
 import Education from './pages/education';
+import Food from './pages/food';
+import HR from './pages/hr';
 // import ScrollToTop from 'scroll-to-top-react-router'
 
 
@@ -56,6 +59,8 @@ root.render(
         <Route path="/healthcare" element={<HealthCare/>}></Route>
         <Route path="/ecommerce" element={<Ecommerce/>}></Route>
         <Route path="/education" element={<Education/>}></Route>
+        <Route path="/food" element={<Food/>}></Route>
+        <Route path="/human-resources" element={<HR/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>

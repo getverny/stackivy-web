@@ -1,4 +1,3 @@
-import './App.css';
 import Discovery from './components/discovery';
 import Footer from './components/footer';
 import GetStarted from './components/getStarted';
