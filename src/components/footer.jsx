@@ -16,6 +16,7 @@ function Footer() {
   const onClear = () => {
     setValue("");
   };
+  
   return (
     <section className="">
       <div className="container">

@@ -18,7 +18,7 @@ function WhyOne() {
             <img src={one} alt="Onescurd" className="img-fluid" />
             <p className="mt-4">Effective human resources can take many forms, and every business has unique challenges with its human resource management. With onscurd, you have tailored solutions for your unique human resource challenges.</p>
             <div className="mt-5">
-              <h4 className="scur">Why Onscurd?</h4>
+              <h4 className="scur">Why Onscud?</h4>
               <p className="mt-4">There are so many benefits to using onscurd in your human resource management.</p>
             </div>
           </div>
