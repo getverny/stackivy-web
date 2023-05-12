@@ -12,8 +12,8 @@ function Ardilla() {
   return (
     <div>
       <div>
-        <Title title="Ardilla | Stackivy" />
-        <Description description="The all in one platform for all your financial needs, whether business or personal. We are in the business of helping you achieve your financial goals" />
+        <Title title="Ardilla - Wealth Management with Ardilla" />
+        <Description description="With Ardilla, you can access financial tools and services that help you build wealth and achieve financial freedom" />
       </div>
       <ArdillaHeader/>
       <ArdillaHero/>

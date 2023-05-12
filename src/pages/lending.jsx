@@ -1,3 +1,4 @@
+import { Description, Title } from "react-head-meta";
 import BuyNow from "../components/buyNow";
 import EmployeeLoan from "../components/employeeLoan";
 import Footer from "../components/footer";
@@ -15,6 +16,10 @@ import ServeCustomers from "../components/serveCustomers";
 function Lending() {
   return (
     <div>
+      <div>
+        <Title title="Lending - Credit Anywhere, Anytime" />
+        <Description description="Explore multiple lending solutions for any financial challenge you or your business may encounter." />
+      </div>
       <Header/>
       <LendingHero/>
       <BuyNow/>

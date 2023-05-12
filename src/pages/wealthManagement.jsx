@@ -1,3 +1,4 @@
+import { Description, Title } from "react-head-meta";
 import BeFree from "../components/beFree";
 import BudgetFooter from "../components/budgetFooter";
 import Info from "../components/info";
@@ -12,6 +13,10 @@ import WhyInvestment from "../components/whyInvestment";
 function Wealth() {
   return (
     <div>
+       <div>
+        <Title title="Wealth Management - Save and Invest with Ardilla" />
+        <Description description="Build and manage wealth using saving and investing financial tools giving your wealth goals the variety it needs." />
+      </div>
       <Header/>
       <WealthHero/>
       <BeFree/>

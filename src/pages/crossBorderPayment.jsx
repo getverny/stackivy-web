@@ -1,3 +1,4 @@
+import { Description, Title } from "react-head-meta";
 import Alt from "../components/alt";
 import BWV from "../components/bwv";
 import CBHeader from "../components/cbHeader";
@@ -12,6 +13,10 @@ import WhyVernde from "../components/whyVernde";
 function CrossBorder() {
   return (
     <div>
+      <div>
+        <Title title="Cross-border payment - Break International Barriers " />
+        <Description description="Use our cross-border payment platform to facilitate international transactions without limits." />
+      </div>
       <CBHeader/>
       <CBHero/>
       <Vernde/>

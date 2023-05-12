@@ -1,3 +1,4 @@
+import { Description, Title } from "react-head-meta";
 import VarietyB from "../components/bringingVariety";
 import BudgetFooter from "../components/budgetFooter";
 import CreateStore from "../components/createStore";
@@ -12,6 +13,10 @@ import PomeloWallet from "../components/pomeloWallet";
 function Pomelo() {
   return (
     <div>
+    <div>
+      <Title title="Payment Gateway - Simplified Payment Process" />
+      <Description description="Simplify your payments and transactions using stackivy's payment gateway-pomelo" />
+    </div>
      <PomeloHeader/>
      <PomeloHero/>
      <VarietyB/>
