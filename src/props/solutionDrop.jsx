@@ -14,7 +14,7 @@ function SolutionDrop(params) {
             <li><Link to="/cross-border">Cross-border payment</Link></li>
             <li><Link to="/payment-gateway">Payment gateway </Link></li>
             <li><Link to="/cryptocurrency">Cryptocurrency </Link></li>
-            <li><Link to="">Foreign exchange trading </Link></li>
+            <li><Link to="/cryptocurrency">Foreign exchange trading </Link></li>
             <li><Link to="/microfinance">Microfinance</Link></li>
             <li><Link to="/mobile-money">Mobile money</Link></li>
             <li><Link to="/lending">Lending  </Link></li>
@@ -24,12 +24,12 @@ function SolutionDrop(params) {
           <h4>Business</h4>
           <ul className="list-unstyled links">
             <li><Link to="/custom-made">Custom made  </Link></li>
-            <li><Link>Payment gateway </Link></li>
-            <li><Link>Cross-border payment </Link></li>
-            <li><Link>Cryptocurrency </Link></li>
-            <li><Link>Microfinance  </Link></li>
+            <li><Link to="/payment-gateway">Payment gateway </Link></li>
+            <li><Link to="/cross-border">Cross-border payment </Link></li>
+            <li><Link to="/crytocurrency">Cryptocurrency </Link></li>
+            <li><Link to="/microfinance">Microfinance  </Link></li>
             <li><Link to="/open-banking">Open banking   </Link></li>
-            <li><Link>Wealth management  </Link></li>
+            <li><Link to="/wealth-management">Wealth management  </Link></li>
             {/* <li><Link>Custom made  </Link></li> */}
             <li><Link to="/book-keeping">Book keeping & expense tracking services</Link></li>
           </ul>
@@ -37,9 +37,9 @@ function SolutionDrop(params) {
         <div className='col-sm-3 mb-2'>
           <h4>Government</h4>
           <ul className="list-unstyled links">
-            <li><Link>Custom made </Link></li>
-            <li><Link>Cross-border payment</Link></li>
-            <li><Link>Lending solutions</Link></li>
+            <li><Link to="/custom-made">Custom made </Link></li>
+            <li><Link to="/cross-border">Cross-border payment</Link></li>
+            <li><Link to="/cross-border">Lending solutions</Link></li>
           </ul>
         </div>
         <div className='col-sm-3 mb-2'>

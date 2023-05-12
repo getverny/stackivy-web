@@ -8,6 +8,7 @@ import twitter from "../assets/twitter.svg";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
+
 function Footer() {
   const [value, setValue] = useState("");
 
@@ -16,7 +17,9 @@ function Footer() {
   const onClear = () => {
     setValue("");
   };
+
   
+
   return (
     <section className="">
       <div className="container">

@@ -39,7 +39,7 @@ root.render(
     minBreakpoint="xxs"
   >
     <BrowserRouter>
-    <ScrollToTop/>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/ardilla" element={<Ardilla/>}></Route>
