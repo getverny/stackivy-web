@@ -39,7 +39,7 @@ function SolutionDrop(params) {
           <ul className="list-unstyled links">
             <li><Link to="/custom-made">Custom made </Link></li>
             <li><Link to="/cross-border">Cross-border payment</Link></li>
-            <li><Link to="/cross-border">Lending solutions</Link></li>
+            <li><Link to="/lending">Lending solutions</Link></li>
           </ul>
         </div>
         <div className='col-sm-3 mb-2'>
