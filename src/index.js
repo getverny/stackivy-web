@@ -28,6 +28,9 @@ import Ecommerce from './pages/ecommerce';
 import Education from './pages/education';
 import Food from './pages/food';
 import HR from './pages/hr';
+import Logistics from './pages/logistics';
+import ForStartup from './pages/forStartup';
+import Webinar from './pages/webinar';
 // import ScrollToTop from 'scroll-to-top-react-router'
 
 
@@ -61,6 +64,9 @@ root.render(
         <Route path="/education" element={<Education/>}></Route>
         <Route path="/food" element={<Food/>}></Route>
         <Route path="/human-resources" element={<HR/>}></Route>
+        <Route path="/logistics" element={<Logistics/>}></Route>
+        <Route path="/for-startup" element={<ForStartup/>}></Route>
+        <Route path="/webinar" element={<Webinar/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>

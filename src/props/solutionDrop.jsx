@@ -50,7 +50,7 @@ function SolutionDrop(params) {
             <li><Link to="/food">Food </Link></li>
             <li><Link to="/education">Education</Link></li>
             <li><Link to="/human-resources">Human Resources</Link></li>
-            <li><Link>Logistics & Trasnsportation</Link></li>
+            <li><Link to="/logistics">Logistics & Trasnsportation</Link></li>
           </ul>
         </div>
       </div>

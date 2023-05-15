@@ -13,7 +13,10 @@
 .foodhero p,
 .credsalary p,
 .hr-card p,
-.hrhero p {
+.hrhero p,
+.seamless p,
+.spayment p,
+.inno p {
   font-size: 12px;
   font-weight: 500;
   line-height: 28px;
@@ -112,4 +115,169 @@
   .hhero {
     margin-top: -100px;
   }
+}
+
+.seamless {
+  padding: 150px 20px;
+  background-image: url("./assets/seamlessbg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spayment {
+  background: linear-gradient(180deg, rgba(0, 134, 87, 0.1) 0%, rgba(255, 230, 0, 0.1) 100%);
+  padding: 150px 20px;
+}
+
+.inno {
+  padding: 150px 20px;
+  background-color: #fff;
+}
+
+.logistichero {
+  padding: 200px 20px;
+}
+
+.logistichero p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #1E2C31;
+}
+
+@media (min-width: 992px){
+  .lh {
+    margin-top: -169px;
+  }
+}
+
+.startuphero {
+  background-color: #fff;
+  padding: 200px 20px;
+}
+
+.startuphero h2 {
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 70px;
+  font-family: mag;
+  color: #000;
+}
+
+.startuphero h6,
+.benefit-partner p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #000;
+}
+
+.tellus {
+  background: linear-gradient(85.3deg, rgba(0, 172, 16, 0.1) 9.48%, rgba(2, 166, 176, 0.1) 87.92%);
+  padding: 150px 20px;
+}
+
+.tellus h2 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  font-family: mag;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #000 4.78%, #6CEF3A 97.92%)!important;
+  -webkit-background-clip: text!important;
+}
+
+.tellus h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #1E2C31;
+}
+
+.tellus p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #1E2C31;
+  min-height: 73px;
+}
+
+.benefit-partner {
+  padding: 200px 20px;
+  background-image: url("./assets/backpartner.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.benefit-partner h2,
+.faq h2 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 75px;
+  font-family: mag;
+  color: #000;
+}
+
+.green-card {
+  background: linear-gradient(85.3deg, #00AC10 9.48%, #02A6B0 87.92%);
+  box-shadow: 0px 10px 90px rgba(255, 255, 255, 0.35);
+  border-radius: 4px;
+  padding: 60px 50px;
+  border: 1.5px solid transparent;
+}
+
+.green-card:hover {
+  background: linear-gradient(85.3deg, #00AC10 9.48%, #02A6B0 87.92%);
+  box-shadow: 0px 10px 90px rgba(255, 255, 255, 0.35);
+  border-radius: 4px;
+  padding: 60px 50px;
+  border: 1.5px solid #fff;
+  cursor: pointer;
+}
+
+.green-card h6 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.green-card p {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.faq {
+  background: linear-gradient(85.3deg, rgba(0, 172, 16, 0.1) 9.48%, rgba(2, 166, 176, 0.1) 87.92%);
+  padding: 150px 20px;
+}
+
+.explorepotential {
+  background: #fff;
+  padding: 100px 20px;
+}
+
+.faq-foot {
+  background-image: url("./assets/potential.svg")!important;
+}
+
+.faq .accordion-button {
+  margin-bottom: 0;
+  font-family: 'mona';
+  font-size: 14px;
+  line-height: 24px;
+  color: #1E2C31;
+}
+
+.faq .accordion-body {
+  font-size: 12px;
+  padding: 40px 20px;
+}
+
+.accordion-button::after {
+  background-image: url("./assets/pluss.svg")!important;
 }

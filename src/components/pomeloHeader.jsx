@@ -15,6 +15,7 @@ import terms from "../assets/terms.svg";
 import { Link } from 'react-router-dom';
 import SolutionDrop from '../props/solutionDrop';
 import ProductDropdown from '../props/productDrop';
+import ResourcesDrop from '../props/resourcesDrop';
 
 
 function PomeloHeader () {
@@ -41,23 +42,7 @@ function PomeloHeader () {
               <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Resources
               </Link>
-              <div className="dropdown-menu company-menu">
-                <div className='row'>
-                  <div className='col-sm'>
-                    <h4>Resources</h4>
-                    <ul className="list-unstyled links">
-                      <li><Link>Product integration</Link></li>
-                      <li><Link>Stackivy for startup</Link></li>
-                      <li><Link>Support</Link></li>
-                      <li><Link>Blog</Link></li>
-                      <li><Link>Guides</Link></li>
-                      <li><Link>Webinars </Link></li>
-                      <li><Link>Case studies</Link></li>
-                      <li><Link>Events </Link></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <ResourcesDrop/>
             </li>
             
             <Nav.Link href="">Pricing</Nav.Link>
