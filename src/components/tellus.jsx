@@ -1,4 +1,5 @@
 import bulb from "../assets/bulb.png";
+import tech from "../assets/tech.png";
 
 
 function Tellus() {
@@ -23,7 +24,7 @@ function Tellus() {
             </a>
           </div>
           <div className="col-sm-5 mb-3">
-            <img src={bulb} alt="Need help developing the next great idea?" className="img-fluid" width={150} />
+            <img src={tech} alt="Need help developing the next great idea?" className="img-fluid" width={150} />
             <h3 className="my-5">Need Tailored products?</h3>
             <p>Stackivy is committed to helping start-ups develop easy and low-cost financial products to help them navigate complex financial situations as they look to build.</p>
             <a
