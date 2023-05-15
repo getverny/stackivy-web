@@ -13,8 +13,8 @@ function FinancialEducation() {
   return (
     <div>
       <div>
-        <Title title="Financial Management - Custom Solutions for Your Business   " />
-        <Description description="Take your business to the next level with custom-ordered financial management solutions that ensure total optimization of your resources" />
+        <Title title="Financial Learning Platform - Learn From The Best Financial Minds" />
+        <Description description="Learn from the best financial minds and a ton of valuable resources that help to ensure your financial freedom." />
       </div>
       <FinHeader/>
       <FinHero/>
