@@ -1,7 +1,6 @@
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-
 function BeSpeaker() {
   return (
     <section className="bespeaker">

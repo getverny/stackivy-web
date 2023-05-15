@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 function ResourcesDrop(params) {
   return (
     <div className="dropdown-menu company-menu">
