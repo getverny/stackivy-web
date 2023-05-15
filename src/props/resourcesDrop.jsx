@@ -12,7 +12,7 @@ function ResourcesDrop(params) {
             <li><Link>Support</Link></li>
             <li><Link>Blog</Link></li>
             <li><Link>Guides</Link></li>
-            <li><Link to="/webinars">Webinars </Link></li>
+            <li><Link to="/webinar">Webinars </Link></li>
             <li><Link>Case studies</Link></li>
             <li><Link>Events </Link></li>
           </ul>
