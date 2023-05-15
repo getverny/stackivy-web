@@ -11,7 +11,7 @@ function ResourcesDrop(params) {
             <li><Link to="/for-startup">Stackivy for startup</Link></li>
             <li><Link>Support</Link></li>
             <li><Link>Blog</Link></li>
-            <li><Link>Guides</Link></li>
+            <li><Link to="/">Guides</Link></li>
             <li><Link to="/webinar">Webinars </Link></li>
             <li><Link>Case studies</Link></li>
             <li><Link>Events </Link></li>
