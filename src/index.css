@@ -388,3 +388,37 @@
   color: #000;
   font-family: mag;
 }
+
+.ard-prod {
+  padding: 100px 60px;
+  background-image: url("./assets/ardpro.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px 0px 0px 0px;
+}
+
+.ard-prod h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+  font-family: mag;
+}
+
+.ard-prod p {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.ard-prod h4 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.harbg {
+  background-image: url("./assets/harbg.svg")!important;
+  border-radius: 0px 30px 30px 30px!important;
+}
