@@ -289,22 +289,24 @@
 
 .bespeaker h2,
 .buildingsus h2,
-.upcoming h2 {
-  font-size: 41px;
-  font-weight: 400;
-  line-height: 45px;
-  font-family: mag;
+.upcoming h2,
+.past-web h2{
+  font-size: 41px!important;
+  font-weight: 400!important;
+  line-height: 45px!important;
+  font-family: mag!important;
   color: #000;
 }
 
 .bespeaker p,
 .buildingsus p,
 .upcoming p,
-.webinar-card h4 {
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 22px;
-  color: #000;
+.webinar-card h4,
+.past-web p,
+.webinarhero h6 {
+  font-size: 12px!important;
+  font-weight: 500!important;
+  line-height: 22px!important;
 }
 
 .buildingsus {
@@ -323,20 +325,24 @@
   font-size: 12px;
 }
 
-.buildingsus h6 {
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 22px;
+.buildingsus h6,
+.past-web h6 {
+  font-size: 12px!important;
+  font-weight: 700!important;
+  line-height: 22px!important;
 }
 
 .buildingsus h3,
-.webinar-card h5 {
+.webinar-card h5,
+.past-web h3{
   font-size: 14px;
   font-weight: 700;
   line-height: 22px;
 }
 
-.buildingsus h4 {
+.buildingsus h4,
+.webinar-card h3,
+.past-web h4 {
   font-size: 14px;
   font-weight: 500;
   line-height: 22px;
@@ -352,4 +358,38 @@
   background: #FFFFFF;
   border-radius: 4px;
   padding: 60px 30px;
+}
+
+.btn-closed {
+  background-color: #F1F1F1;
+  color: #000;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  border-color: #F1F1F1;
+}
+
+.brd {
+  border: 1px solid #000;
+}
+
+.live-card {
+  padding: 50px 20px;
+  background-color: #FAFAFA;
+}
+
+.webinarhero {
+  padding: 150px 20px;
+  background-image: url("./assets/webbg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.webinarhero h2 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  color: #000;
+  font-family: mag;
 }

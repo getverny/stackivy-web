@@ -14,7 +14,7 @@ function ResourcesDrop() {
             <li><Link to="/">Guides</Link></li>
             <li><Link to="/webinar">Webinars </Link></li>
             <li><Link>Case studies</Link></li>
-            <li><Link>Events </Link></li>
+            <li><Link to="/events">Events </Link></li>
           </ul>
         </div>
       </div>

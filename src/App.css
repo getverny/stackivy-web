@@ -122,6 +122,11 @@ a {
   background-color: #3c0a52;
 }
 
+.web-header {
+  background-color: #0B2246;
+}
+
+
 .hargon-header {
   background-color: #228922;
 }
@@ -136,7 +141,8 @@ a {
 
 .ardilla-header .nav-link,
 .hargon-header .nav-link,
-.crypto-header .nav-link {
+.crypto-header .nav-link,
+.web-header .nav-link {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
@@ -145,7 +151,8 @@ a {
 
 .ardilla-header .nav-link:hover,
 .hargon-header .nav-link:hover,
-.crypto-header .nav-link:hover {
+.crypto-header .nav-link:hover,
+.web-header .nav-link {
   color: #f9f9f9;
   font-size: 14px;
   font-weight: 500;
@@ -170,7 +177,8 @@ a {
   .header .nav-link,
   .ardilla-header .nav-link,
   .hargon-header .nav-link,
-  .crypto-header .nav-link  {
+  .crypto-header .nav-link,
+  .web-header .nav-link  {
     margin-left: 40px;
   }
 }
