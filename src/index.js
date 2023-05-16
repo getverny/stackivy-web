@@ -31,6 +31,7 @@ import HR from './pages/hr';
 import Logistics from './pages/logistics';
 import ForStartup from './pages/forStartup';
 import Webinar from './pages/webinar';
+import Events from './pages/events';
 
 
 
@@ -66,6 +67,7 @@ root.render(
         <Route path="/logistics" element={<Logistics/>}></Route>
         <Route path="/for-startup" element={<ForStartup/>}></Route>
         <Route path="/webinar" element={<Webinar/>}></Route>
+        <Route path="/events" element={<Events/>}></Route>
       </Routes>
     </BrowserRouter>
   </ThemeProvider>

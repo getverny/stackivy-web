@@ -146,11 +146,6 @@
   color: #1E2C31;
 }
 
-@media (min-width: 992px){
-  .lh {
-    margin-top: -169px;
-  }
-}
 
 .startuphero {
   background-color: #fff;

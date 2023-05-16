@@ -1,6 +1,6 @@
 
 import logistics from "../assets/titlelogistic.svg";
-import delivery from "../assets/logistic.svg";
+import delivery from "../assets/logistics.png";
 
 function LogisticHero() {
   return (
@@ -17,7 +17,7 @@ function LogisticHero() {
               Get started
             </button>
           </div>
-          <div className="col-lg-5 offset-md-1 p-0 lh">
+          <div className="col-lg-5 offset-md-1 p-0">
             <img src={delivery} alt="logistics" className="img-fluid w-100 animate__animated animate__slideInRight animate__fast" />
           </div>
         </div>
