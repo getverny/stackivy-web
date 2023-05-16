@@ -287,7 +287,9 @@
   padding: 100px 20px;
 }
 
-.bespeaker h2 {
+.bespeaker h2,
+.buildingsus h2,
+.upcoming h2 {
   font-size: 41px;
   font-weight: 400;
   line-height: 45px;
@@ -295,9 +297,59 @@
   color: #000;
 }
 
-.bespeaker p {
+.bespeaker p,
+.buildingsus p,
+.upcoming p,
+.webinar-card h4 {
   font-size: 12px;
   font-weight: 500;
   line-height: 22px;
   color: #000;
+}
+
+.buildingsus {
+  padding: 100px 20px;
+  background-image: url("./assets/build.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.closed {
+  background: #132A53;
+  padding: 8px 16px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.buildingsus h6 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.buildingsus h3,
+.webinar-card h5 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.buildingsus h4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #000;
+}
+
+.upcoming {
+  background-color: #eff5f9;
+  padding: 100px 20px;
+}
+
+.webinar-card {
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 60px 30px;
 }

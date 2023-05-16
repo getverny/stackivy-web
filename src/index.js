@@ -31,7 +31,6 @@ import HR from './pages/hr';
 import Logistics from './pages/logistics';
 import ForStartup from './pages/forStartup';
 import Webinar from './pages/webinar';
-// import ScrollToTop from 'scroll-to-top-react-router'
 
 
 
@@ -72,7 +71,4 @@ root.render(
   </ThemeProvider>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
