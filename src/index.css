@@ -17,7 +17,8 @@
 .seamless p,
 .spayment p,
 .inno p,
-.stack-ivy h6 {
+.stack-ivy h6,
+.experience h6 {
   font-size: 12px;
   font-weight: 500;
   line-height: 28px;
@@ -208,7 +209,8 @@
 }
 
 .benefit-partner h2,
-.faq h2 {
+.faq h2,
+.support-faq h2 {
   font-size: 50px;
   font-weight: 400;
   line-height: 75px;
@@ -269,7 +271,21 @@
   color: #1E2C31;
 }
 
+.support-faq .accordion-button {
+  margin-bottom: 0;
+  font-family: 'mona';
+  font-size: 14px;
+  line-height: 24px;
+  color: #1E2C31;
+  background-color: #F9FAFB;
+}
+
 .faq .accordion-body {
+  font-size: 12px;
+  padding: 40px 20px;
+}
+
+.support-faq .accordion-body {
   font-size: 12px;
   padding: 40px 20px;
 }
@@ -451,4 +467,107 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.experience {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.support-faq {
+  padding: 100px 20px;
+}
+
+.accordion-item:not(:first-of-type) {
+  border-top: 0;
+  margin-top: 30px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border: 0px!important;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.accordion-item {
+  border: 0px;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.keed-ardilla {
+  background: #fff;
+  padding: 100px 20px;
+}
+
+.keed-ardilla h4,
+.tailored h4 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.keed-ardilla h2,
+.tailored h2,
+.paysolution h2,
+.product-hero h2 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+  font-family: mag;
+  color: #000000;
+}
+
+.keed-ardilla p,
+.tailored p,
+.paysolution p,
+.product-hero h6 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #808080;
+}
+
+.tailored {
+  padding: 100px 20px;
+  background-image: url("./assets/sone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paysolution {
+  padding: 100px 20px;
+}
+
+.pay-ment {
+  background: linear-gradient(125.69deg, rgba(37, 99, 235, 0.1) -13.59%, rgba(53, 255, 73, 0.1) 168.79%);
+  border-radius: 70px;
+  color:#35FF49;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  padding: 14px 20px;
+  text-transform: uppercase;
+}
+
+.credwealth {
+  background: linear-gradient(117.04deg, rgba(37, 99, 235, 0.1) -13.79%, rgba(53, 255, 73, 0.1) 131.52%);
+}
+
+.product-hero {
+  padding: 200px 20px;
+}
+
+.w-87 {
+  width: 87%!important;
 }

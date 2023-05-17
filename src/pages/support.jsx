@@ -1,4 +1,6 @@
-import Footer from "../components/footer";
+import Experience from "../components/experience";
+import FAQSupport from "../components/faqSupport";
+import NoTop from "../components/footerwithoutTop";
 import Header from "../components/navBar";
 import NeedHelp from "../components/needHelp";
 import StackivyCommunity from "../components/stackivyCommunity";
@@ -9,7 +11,9 @@ function Supports() {
       <Header/>
       <NeedHelp/>
       <StackivyCommunity/>
-      <Footer/>
+      <Experience/>
+      <FAQSupport/>
+      <NoTop/>
     </div>
   );
 }

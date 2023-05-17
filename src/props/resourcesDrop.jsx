@@ -7,7 +7,7 @@ function ResourcesDrop() {
         <div className='col-sm'>
           <h4>Resources</h4>
           <ul className="list-unstyled links">
-            <li><Link>Product integration</Link></li>
+            <li><Link to="/product-integration">Product integration</Link></li>
             <li><Link to="/for-startup">Stackivy for startup</Link></li>
             <li><Link to="/support">Support</Link></li>
             <li><Link>Blog</Link></li>
