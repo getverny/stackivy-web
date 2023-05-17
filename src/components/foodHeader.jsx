@@ -9,13 +9,11 @@ import usa from "../assets/usa.svg";
 import uk from "../assets/uk.svg";
 import zim from "../assets/zim.svg";
 import globe from "../assets/ranje.svg";
-import about from "../assets/about.svg";
-import privacy from "../assets/privacy.svg";
-import terms from "../assets/terms.svg";
 import { Link } from 'react-router-dom';
 import SolutionDrop from '../props/solutionDrop';
 import ProductDropdown from '../props/productDrop';
 import ResourcesDrop from '../props/resourcesDrop';
+import CompanyDropdown from '../props/companyDrop';
 
 
 function FoodHeader () {
@@ -50,29 +48,7 @@ function FoodHeader () {
               <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Company
               </Link>
-              <div className="dropdown-menu company-menu company">
-                <Link className='d-flex flex-row mb-2'>
-                  <img src={about} alt="about-us" className='img-fluid' />
-                  <div className='title-header mt-3'>
-                    <h4>About Us</h4>
-                    <p>Know Us More</p>
-                  </div>
-                </Link>
-                <Link className='d-flex flex-row mb-2'>
-                  <img src={privacy} alt="about-us" className='img-fluid' />
-                  <div className='title-header mt-3'>
-                    <h4>Privacy Policy</h4>
-                    <p>Security</p>
-                  </div>
-                </Link>
-                <Link className='d-flex flex-row'>
-                  <img src={terms} alt="about-us" className='img-fluid' />
-                  <div className='title-header mt-3'>
-                    <h4>Terms & Conditions</h4>
-                    <p>User Policies</p>
-                  </div>
-                </Link>
-              </div>
+              <CompanyDropdown/>
             </li>
           </Nav>
           <div className="ms-auto">
