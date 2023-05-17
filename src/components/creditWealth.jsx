@@ -7,7 +7,7 @@ function CreditWealth() {
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-sm-6">
-            <span className="pay-ment" style={{color: "#2563EB"}}>Credit and Wealth Management Solutions</span>
+            <span className="pay-ment"><span className="track">Credit and Wealth Management Solutions</span></span>
             <h2 className="mt-4 track">Hargon + Curved + Ardilla 
             +Nearly + Onwa</h2>
             <p className="mt-4 text-black">Enjoy quick and seamless financial assistance through a plethora of credit and financial management solutions Every business relies on funds and proper management of funds to thrive. We offer your business jaw-dropping credit solutions and expert financial analysis that empowers you and your business to succeed in an ever-strenuous economy.</p>

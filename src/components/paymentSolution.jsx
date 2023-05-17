@@ -15,7 +15,7 @@ function PaymentSolution() {
             </button>
           </div>
           <div className="col-sm-6 text-end">
-            <span className="pay-ment">PAYMENT SOLUTIONS</span>
+            <span className="pay-ment"><span className="track">PAYMENT SOLUTIONS</span></span>
             <h2 className="mt-4 track">Pomelo + Vernde + Curved + Nearly + zetarrh</h2>
             <p className="mt-4 text-black">Take advantage of customer-friendly and multi-facing payment solutions that ensure every stakeholder's rich experience. E-commerce businesses are increasingly popular, and 27% of the population are digital shoppers. Don't you think your business and customers deserve a good experience? We do, and we backed it up. Now you can enjoy payment solutions that guarantee simplified international and local payments.</p>
           </div>

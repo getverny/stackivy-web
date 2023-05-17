@@ -13,7 +13,7 @@ function StackivyCommunity() {
             <button
               className="btn btn-primary btn-fff rounded-pill px-5 py-4" style={{color: "#35FF49"}}
             >
-              Join our community now
+              <span className="track">Join our community now</span>
             </button>
           </div>
           <div className="col-sm-6">
