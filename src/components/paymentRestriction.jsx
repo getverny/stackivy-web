@@ -1,5 +1,4 @@
-import gadget from "../assets/gadgets.svg";
-
+import gadget from "../assets/gadgets.png";
 
 function PaymentRest() {
   return (

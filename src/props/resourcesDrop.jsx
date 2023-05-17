@@ -9,7 +9,7 @@ function ResourcesDrop() {
           <ul className="list-unstyled links">
             <li><Link>Product integration</Link></li>
             <li><Link to="/for-startup">Stackivy for startup</Link></li>
-            <li><Link>Support</Link></li>
+            <li><Link to="/support">Support</Link></li>
             <li><Link>Blog</Link></li>
             <li><Link to="/">Guides</Link></li>
             <li><Link to="/webinar">Webinars </Link></li>

@@ -1,5 +1,5 @@
 import left from "../assets/store.svg";
-import right from "../assets/rightstore.svg";
+import right from "../assets/rightstore.png";
 import bold from "../assets/shop.svg";
 import { Icon } from '@iconify/react';
 

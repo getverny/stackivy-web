@@ -16,7 +16,8 @@
 .hrhero p,
 .seamless p,
 .spayment p,
-.inno p {
+.inno p,
+.stack-ivy h6 {
   font-size: 12px;
   font-weight: 500;
   line-height: 28px;
@@ -421,4 +422,33 @@
 .harbg {
   background-image: url("./assets/harbg.svg")!important;
   border-radius: 0px 30px 30px 30px!important;
+}
+
+.needhelp {
+  background-color: #fff;
+  padding: 150px 20px;
+}
+
+.needhelp h2,
+.stack-ivy h2 {
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 69px;
+  font-family: mag;
+  color: #000000;
+}
+
+.needhelp p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 28px;
+  color:#1E2C31;
+}
+
+.stack-ivy {
+  padding: 150px 20px;
+  background-image: url("./assets/stackivy.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

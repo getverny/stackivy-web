@@ -1,4 +1,4 @@
-import plus from "../assets/salary.svg";
+import plus from "../assets/salary.png";
 import quick from "../assets/sa.svg";
 
 
