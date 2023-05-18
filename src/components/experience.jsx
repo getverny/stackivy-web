@@ -1,5 +1,7 @@
 import plus from "../assets/mosaic.svg";
 import hargon from "../assets/comsoon.svg";
+import ardilla from "../assets/so-ard.png";
+import nearly from "../assets/so-nearly.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -25,7 +27,7 @@ function Experience() {
           </div>
         </div>
       </div>
-      <div className="container-fluid toppings px-0">
+      <div className="container-fluid toppings px-0 so">
         <div className="row">
         <Swiper
             slidesPerView={3}
@@ -41,10 +43,10 @@ function Experience() {
               <img src={hargon} alt="coming-soon" className="img-fluid" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={hargon} alt="coming-soon" className="img-fluid" />
+              <img src={ardilla} alt="coming-soon" className="img-fluid" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={hargon} alt="coming-soon" className="img-fluid" />
+              <img src={nearly} alt="coming-soon" className="img-fluid" />
             </SwiperSlide>
             <SwiperSlide>
               <img src={hargon} alt="coming-soon" className="img-fluid" />

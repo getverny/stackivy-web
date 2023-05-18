@@ -211,7 +211,8 @@
 
 .benefit-partner h2,
 .faq h2,
-.support-faq h2 {
+.support-faq h2,
+.benefit-work h2 {
   font-size: 50px;
   font-weight: 400;
   line-height: 75px;
@@ -399,7 +400,8 @@
   background-size: cover;
 }
 
-.webinarhero h2 {
+.webinarhero h2,
+.careers-footer h2 {
   font-size: 60px;
   font-weight: 500;
   line-height: 60px;
@@ -427,8 +429,9 @@
 }
 
 .ard-prod p,
-.ourtalents p {
-  font-size: 13px;
+.ourtalents p,
+.benefit-work p {
+  font-size: 14px;
   font-weight: 500;
   line-height: 24px;
   color: #000000;
@@ -749,9 +752,45 @@
   background-color: #F9FAFB;
 }
 
-.ourtalents h3 {
+.ourtalents h3,
+.benefitcards h3 {
   color: #000;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
+}
+
+.careers-footer {
+  background-image: url("./assets/valuesbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.benefit-work {
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+.benefitcards {
+  padding: 70px 40px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-shadow: 11px 11px 0px 0px #2563EB;
+  min-height: 312px;
+}
+
+.benefitcards p {
+  color: #000;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.so img {
+  height: 554px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 40px;
 }

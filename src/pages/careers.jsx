@@ -1,4 +1,6 @@
 
+import BenefitWork from "../components/benefitsWorking";
+import CareerFooter from "../components/careerFooter";
 import CareersHero from "../components/careersHero";
 import Footer from "../components/footer";
 import MobileHeader from "../components/mmHeader";
@@ -13,6 +15,8 @@ function Careers() {
       <CareersHero/>
       <OpenPosition/>
       <OurTalents/>
+      <CareerFooter/>
+      <BenefitWork/>
       <Footer/>
     </div>
   );
