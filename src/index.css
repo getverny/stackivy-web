@@ -571,3 +571,91 @@
 .w-87 {
   width: 87%!important;
 }
+
+.about-hero {
+  padding: 230px 20px;
+  background-image: url("./assets/bg-about.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-hero h2 {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 50px;
+  font-family: mag;
+}
+
+.about-hero p,
+.miss p,
+.our-goal p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #1E2C31;
+}
+
+.mis {
+  background: linear-gradient(91.8deg, rgba(12, 107, 138, 0.2) 4.78%, #FFCC00 97.92%, rgba(255, 204, 0, 0.2) 101.92%);
+  border-radius: 70px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 28px;
+  font-weight: 500;
+  padding: 12px 25px;
+  text-transform: uppercase;
+}
+
+.miss {
+  padding: 150px 20px;
+  background: linear-gradient(89.82deg, rgba(12, 107, 138, 0.1) 5.42%, rgba(255, 204, 0, 0.1) 94.7%);
+}
+
+.miss h2 {
+  font-size: 69px;
+  font-weight: 400;
+  line-height: 93px;
+  font-family: mag;
+}
+
+@media (min-width: 992px){
+  .mission-img {
+    margin-top: -90px;
+  }
+}
+
+.v-state {
+  padding: 100px 20px;
+}
+
+.v-state h2 {
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 79px;
+  font-family: mag;
+}
+
+.v-state p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.vision-card {
+  background-image: url("./assets/vision-state.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 110px 60px;
+  border-radius: 60px 60px 60px 0px;
+}
+
+.our-goal {
+  background-image: url("./assets/goalbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+  margin-bottom: 140px;
+}

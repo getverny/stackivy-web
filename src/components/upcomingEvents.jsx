@@ -17,8 +17,8 @@ function Upcoming() {
         <div className="row">
           <div className="col-sm-7">
             <span className="closed" style={{background: "#E1EDF4", color: "#000"}}>UPCOMING EVENTS</span>
-            <h2 className="mt-3">Get your spot for our next programs</h2>
-            <p className="mt-4">With sustainability being all the rage around the world, how do we channel some of that responsibility into building sustainable financial solutions for customers across the continent? </p>
+            <h2 className="mt-3">Grab a spot in our upcoming webinars</h2>
+            <p className="mt-4">Be a part of Stackivy webinars where we discuss and learn from experts on topics that are shaping the face of finance across Africa and beyond </p>
           </div>
         </div>
         <div className="row mt-5">

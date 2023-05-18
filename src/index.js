@@ -34,6 +34,7 @@ import Webinar from './pages/webinar';
 import Events from './pages/events';
 import Supports from './pages/support';
 import ProductIntegration from './pages/productIntegration';
+import AboutUs from './pages/aboutUs';
 
 
 
@@ -71,6 +72,7 @@ root.render(
         <Route path="/webinar" element={<Webinar/>}></Route>
         <Route path="/events" element={<Events/>}></Route>
         <Route path="/support" element={<Supports/>}></Route>
+        <Route path="/about-us" element={<AboutUs/>}></Route>
         <Route path="/product-integration" element={<ProductIntegration/>}></Route>
       </Routes>
     </BrowserRouter>
