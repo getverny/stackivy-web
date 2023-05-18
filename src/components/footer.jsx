@@ -72,22 +72,22 @@ function Footer() {
             <div className="col-sm mb-3">
               <h5>Resources</h5>
               <ul className="list-unstyled links">
-                <li><Link>Product integration</Link></li>
-                <li><Link>Stackivy for startup</Link></li>
-                <li><Link>Blog</Link></li>
-                <li><Link>Guides</Link></li>
-                <li><Link>Webinars</Link></li>
-                <li><Link>Case studies</Link></li>
-                <li><Link>Events</Link></li>
+                <li><Link to="/product-integration">Product integration</Link></li>
+                <li><Link to="/for-startup">Stackivy for startup</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
+                <li><Link to="/guides">Guides</Link></li>
+                <li><Link to="/webinar">Webinars</Link></li>
+                <li><Link to="/case-studies">Case studies</Link></li>
+                <li><Link to="/events">Events</Link></li>
               </ul>
             </div>
             <div className="col-sm mb-3">
               <h5>Stackivy</h5>
               <ul className="list-unstyled links">
-                <li><Link>About us</Link></li>
+                <li><Link to="/about-us">About us</Link></li>
                 <li><Link to="/careers">Careers</Link></li>
-                <li><Link>FAQs</Link></li>
-                <li><Link>Press</Link></li>
+                <li><Link to="faqs">FAQs</Link></li>
+                <li><Link to="/press">Press</Link></li>
               </ul>
             </div>
             <div className="col-sm mb-3">
