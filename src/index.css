@@ -748,3 +748,10 @@
   padding: 100px 20px;
   background-color: #F9FAFB;
 }
+
+.ourtalents h3 {
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
