@@ -1,5 +1,4 @@
 import { Icon } from "@iconify/react";
-import careers from "../assets/careers.png";
 
 
 function OpenPosition() {
