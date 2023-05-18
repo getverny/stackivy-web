@@ -81,7 +81,7 @@ function BudgetFooter() {
               <h5>Stackivy</h5>
               <ul className="list-unstyled links">
                 <li><Link>About us</Link></li>
-                <li><Link>Careers</Link></li>
+                <li><Link to="/careers">Careers</Link></li>
                 <li><Link>FAQs</Link></li>
                 <li><Link>Press</Link></li>
               </ul>

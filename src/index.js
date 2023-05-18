@@ -35,6 +35,7 @@ import Events from './pages/events';
 import Supports from './pages/support';
 import ProductIntegration from './pages/productIntegration';
 import AboutUs from './pages/aboutUs';
+import Careers from './pages/careers';
 
 
 
@@ -73,6 +74,7 @@ root.render(
         <Route path="/events" element={<Events/>}></Route>
         <Route path="/support" element={<Supports/>}></Route>
         <Route path="/about-us" element={<AboutUs/>}></Route>
+        <Route path="/careers" element={<Careers/>}></Route>
         <Route path="/product-integration" element={<ProductIntegration/>}></Route>
       </Routes>
     </BrowserRouter>
