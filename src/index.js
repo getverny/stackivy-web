@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import './App.css';
+import './auth.css';
 import 'animate.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -37,6 +38,11 @@ import ProductIntegration from './pages/productIntegration';
 import AboutUs from './pages/aboutUs';
 import Careers from './pages/careers';
 import CaseStudies from './pages/CaseStudies';
+import Login from './login/login';
+import Options from './login/optionLogin';
+import PersonalLogin from './login/personalSignup';
+import GovtLogin from './login/govtSignup';
+import BusinessLogin from './login/businessSignup';
 
 
 
@@ -78,6 +84,13 @@ root.render(
         <Route path="/careers" element={<Careers/>}></Route>
         <Route path="/case-studies" element={<CaseStudies/>}></Route>
         <Route path="/product-integration" element={<ProductIntegration/>}></Route>
+        <Route path="/login" element={<Login/>}></Route>
+        <Route path="/select-options" element={<Options/>}></Route>
+        <Route path="/sign-options" element={<Options/>}></Route>
+        <Route path="/signup-for-personal" element={<PersonalLogin/>}></Route>
+        <Route path="/signup-for-govt" element={<GovtLogin/>}></Route>
+        <Route path="/signup-for-business" element={<BusinessLogin/>}></Route>
+
       </Routes>
     </BrowserRouter>
   </ThemeProvider>

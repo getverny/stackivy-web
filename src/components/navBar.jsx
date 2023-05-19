@@ -55,7 +55,7 @@ function Header () {
               <li className="nav-item">
                 <Link
                   className="btn btn-primary btn-main rounded-pill px-5 py-3"
-                  to=""
+                  to="/select-options"
                 >
                   Sign In
                 </Link>
