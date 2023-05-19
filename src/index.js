@@ -36,6 +36,7 @@ import Supports from './pages/support';
 import ProductIntegration from './pages/productIntegration';
 import AboutUs from './pages/aboutUs';
 import Careers from './pages/careers';
+import CaseStudies from './pages/CaseStudies';
 
 
 
@@ -75,6 +76,7 @@ root.render(
         <Route path="/support" element={<Supports/>}></Route>
         <Route path="/about-us" element={<AboutUs/>}></Route>
         <Route path="/careers" element={<Careers/>}></Route>
+        <Route path="/case-studies" element={<CaseStudies/>}></Route>
         <Route path="/product-integration" element={<ProductIntegration/>}></Route>
       </Routes>
     </BrowserRouter>
