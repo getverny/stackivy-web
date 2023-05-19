@@ -460,7 +460,8 @@
 .stack-ivy h2,
 .challenges-sec h2,
 .sc-solution h3,
-.ii h2 {
+.ii h2,
+.acc-sec h2 {
   font-size: 65px;
   font-weight: 400;
   line-height: 69px;
@@ -854,7 +855,8 @@
 
 .case-hero p,
 .challenges-sec p,
-.sc-solution p {
+.sc-solution p,
+.acc-sec p {
   color: #1E2C31;
   font-size: 14px;
   line-height: 22px;
@@ -885,6 +887,10 @@
   padding: 200px 0px;
 }
 
+.roady-cha {
+  background-image: url("./assets/roadychallenge.svg")!important;
+}
+
 .solutioncases {
   background-image: url("./assets/sbgg.png");
   background-position: center;
@@ -909,4 +915,12 @@
   font-size: 25px;
   line-height: 22px;
   font-weight: 600;
+}
+
+.acc-sec {
+  background-image: url("./assets/pa.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0px;
 }

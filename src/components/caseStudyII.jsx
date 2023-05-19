@@ -7,10 +7,10 @@ function II() {
     <section className="ii">
       <div className="container">
         <div className="row">
-          <div className="col-sm-10">
+          <div className="col-sm-12">
             <img src={results} alt="result" className="img-fluid" />
             <p className="my-5">The results were terrific for Leapsails. They were able to serve their customers better while managing in-house financial challenges more effectively.</p>
-            <img src={liner} alt="divider" className="img-fluid" />
+            <img src={liner} alt="divider" className="img-fluid w-100" />
           </div>
         </div>
         <div className="mt-5">

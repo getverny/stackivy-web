@@ -5,7 +5,7 @@ function SolutionCases() {
       <div className="container">
         <div className="row">
           <div className="col-sm-7">
-            <div className="sc-solution">
+            <div className="sc-solution animate__animated animate__slideInLeft animate__fast">
               <h3 className="text-white">Solutions</h3>
               <p className="mt-5 text-white">After we sat down with the customer, we realised the company had a complicated financial challenge. We would better serve the company with a custom solution that captures all its challenges in one application</p>
               <p className="mt-4 text-white">We suggested our onscurd application to Leapsail and outlined how we intended to create a custom financial application that would capture their needs with the appropriate solution.</p>

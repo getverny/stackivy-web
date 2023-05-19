@@ -33,7 +33,7 @@ function Challenges() {
             </div>
           </div>
           <div className="col-sm-6">
-            <img src={right} alt="challenges" className="img-fluid" style={{marginLeft: "190px", marginTop: "-71px"}} />
+            <img src={right} alt="challenges" className="img-fluid animate__animated animate__slideInRight animate__fast" style={{marginLeft: "190px", marginTop: "-71px"}} />
           </div>
         </div>
       </div>
